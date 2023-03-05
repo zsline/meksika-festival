@@ -131,6 +131,9 @@ body {
   gap: 20px;
   flex: 0 0 420px;
 }
+.header__nav-logo svg {
+  width: 80px;
+}
 .header__nav-logo span {
   display: inline-block;
   width: 347px;

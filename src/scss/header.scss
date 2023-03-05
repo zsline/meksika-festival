@@ -16,6 +16,9 @@
             align-items: center;
             gap: 20px;
             flex: 0 0 420px;
+            & svg {
+                width: 80px;
+            }
             & span {
                 display: inline-block;
                 width: 347px;
