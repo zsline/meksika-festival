@@ -16,8 +16,9 @@
             align-items: center;
             gap: 20px;
             flex: 0 0 420px;
-            & svg {
-                width: 80px;
+            & img {
+                height: 100%;
+                object-fit: cover;
             }
             & span {
                 display: inline-block;
