@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: var(--bg);
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    max-width: 1370px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

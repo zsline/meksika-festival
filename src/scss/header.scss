@@ -1,0 +1,115 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 50px 0;
+    font-family: 'Montserrat';
+    @media (max-width: 540px) {
+        padding: 20px 0;
+    }
+    &__nav {
+        @include center;
+        &-logo {
+            height: 55px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 0 0 420px;
+            & span {
+                display: inline-block;
+                width: 347px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.175em;
+                @media (max-width: 970px) {
+                    display: none;
+                }
+            }
+            @media (max-width: 970px) {
+                flex: 0 0 210px;
+            }
+        }
+        &-menu {
+            margin: 0 auto;
+            @media (max-width: 970px) {
+                margin: 0 0;
+            }
+        }
+        &-img {
+            height: 100%;
+            object-fit: cover;
+        }
+        &-tel {
+            flex: 0 0 420px;
+            @include center;
+            justify-content: end;
+            gap: 40px;
+            & p {
+                @media (max-width: 970px) {
+                    display: none;
+                }
+            }
+            & .tel__link {
+                @include but;
+            }
+            @media (max-width: 970px) {
+                flex: 0 0 210px;
+            }
+            @media (max-width: 540px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.nav-menu {
+    &__inner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 110%;
+        width: 100%;
+        display: none;
+        column-gap: 20px;
+        background: #fff;
+        color: black;
+        padding: 0 30px;
+        transform: translateY(-180%);
+    }
+    &__link {
+        font-size: 18px;
+        font-weight: 700;
+        opacity: 1;
+        padding: 20px 0;
+        transition: all 0.3s;
+        &:hover {
+            opacity: .6;
+        }
+    }
+    &__btn {
+        & svg {
+            @media (max-width: 540px) {
+                width: 40px;
+            }
+        }
+    }
+}
+
+.nav-menu--active {
+    & .nav-menu__inner {
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(0%);
+    }
+}
+
+.nav-menu--active {
+    & .nav-menu__btn {
+        & path {
+            fill: #A9D1FF;
+        }
+    }
+}
