@@ -133,6 +133,7 @@ body {
 }
 .header__nav-logo img {
   height: 100%;
+  max-width: 50px;
   object-fit: cover;
 }
 .header__nav-logo span {
@@ -161,10 +162,6 @@ body {
   .header__nav-menu {
     margin: 0 0;
   }
-}
-.header__nav-img {
-  height: 100%;
-  object-fit: cover;
 }
 .header__nav-tel {
   flex: 0 0 420px;
