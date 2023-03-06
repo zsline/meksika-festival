@@ -276,12 +276,22 @@ button {
   transform: translateY(-50%);
   cursor: pointer;
 }
+@media (max-width: 560px) {
+  .fest-prev {
+    display: none;
+  }
+}
 .fest-next {
   position: absolute;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+}
+@media (max-width: 560px) {
+  .fest-next {
+    display: none;
+  }
 }
 .fest-video {
   width: 100%;
@@ -303,6 +313,11 @@ button {
 .slider {
   position: relative;
   padding: 0 100px;
+}
+@media (max-width: 560px) {
+  .slider {
+    padding: 0;
+  }
 }
 
 * {

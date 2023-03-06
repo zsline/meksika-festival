@@ -15,6 +15,9 @@
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
+        @media (max-width: 560px) {
+            display: none;
+        }
     }
     &-next {
         position: absolute;
@@ -22,6 +25,9 @@
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
+        @media (max-width: 560px) {
+            display: none;
+        }
     }
     &-video {
         width: 100%;
@@ -40,4 +46,7 @@
 .slider {
     position: relative;
     padding: 0 100px;
+    @media (max-width: 560px) {
+        padding: 0;
+    }
 }
