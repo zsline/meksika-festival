@@ -5,8 +5,9 @@
     top: 0;
     padding: 50px 0;
     font-family: 'Montserrat';
+    user-select: none;
     @media (max-width: 540px) {
-        padding: 20px 0;
+        padding: 10px 0;
     }
     &__nav {
         @include center;

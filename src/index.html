@@ -4,9 +4,20 @@
 @@include('html/head.html',{ "title":"Главная" })
 
 <body>
-    @@include('html/header.html',{})
+    @@include('html/header.html',{}) @@include('html/offer.html',{})
     <main>
-        @@include('html/offer.html',{})
+        <div class="container">
+            <h2>Про фестиваль</h2>
+            <iframe class="fest-video" src="https://www.youtube.com/embed/CYu9RyIh5Jc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media;" allowfullscreen></iframe>
+            <div class="festival_ingo">
+                <p>Фестиваль заснований у 2019 році молодіжними працівниками Мар'їнської громади. Мета фестивалю - згуртованість та зміцнення потенціалу новостворенних молдіжних центрів шляхом об'єднання ресурсів за для спільної мети команди. Місце проведення
+                    - паркова зона с. Максимільянівка.</p>
+                <p>
+                    Основний критерій заходу: не залучати на оформлення та проведення фестиваля бюджетних коштів, та розробка програми фестивалю з залученням та участю молоді громади.
+                </p>
+            </div>
+        </div>
+        @@include('html/first-fest.html',{}) @@include('html/second-fest.html',{})
     </main>
     @@include('html/footer.html',{})
     <script src="js/app.min.js"></script>

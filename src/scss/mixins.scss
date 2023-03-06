@@ -15,3 +15,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@mixin title {
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.11em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--text);
+}
