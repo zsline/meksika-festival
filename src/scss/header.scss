@@ -79,6 +79,7 @@
         color: black;
         padding: 0 30px;
         transform: translateY(-180%);
+        z-index: 1000;
     }
     &__link {
         font-size: 18px;

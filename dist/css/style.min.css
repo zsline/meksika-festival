@@ -210,6 +210,7 @@ body {
   color: black;
   padding: 0 30px;
   transform: translateY(-180%);
+  z-index: 1000;
 }
 .nav-menu__link {
   font-size: 18px;
@@ -253,8 +254,14 @@ body {
     padding-top: 150px;
   }
 }
+.offer__inner {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .offer__subtitle {
-  margin-bottom: 80px;
   font-size: 48px;
   line-height: 59px;
   text-align: center;
@@ -264,30 +271,27 @@ body {
   .offer__subtitle {
     font-size: 26px;
     line-height: 40px;
-    margin-bottom: 50px;
   }
 }
 .offer__title {
   font-family: "MontserratAlternates", sans-serif;
   font-weight: 700;
-  font-size: calc(60px + 2.0833333333vw);
-  line-height: 88px;
+  font-size: calc(50px + 1.5625vw);
+  line-height: 80px;
   text-align: center;
   letter-spacing: 0.11em;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--text);
-  margin-bottom: 100px;
 }
 @media (max-width: 860px) {
   .offer__title {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (max-width: 540px) {
   .offer__title {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 44px;
-    margin-bottom: 50px;
   }
 }
 .offer__text {
@@ -295,7 +299,6 @@ body {
   line-height: 59px;
   text-align: center;
   letter-spacing: 0.11em;
-  margin-bottom: 30px;
 }
 @media (max-width: 540px) {
   .offer__text {
