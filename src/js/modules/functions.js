@@ -1,5 +1,24 @@
 import Swiper, { Navigation, Pagination } from "swiper";
 
+import { photo } from './photo.js';
+
+// console.log(photo);
+const slider1 = document.querySelector('.first-fest__slider')
+const slider2 = document.querySelector('.second-fest__slider')
+
+function createSlider(year, slider) {
+    let html = '';
+    for (let i = 0; i <= photo[year].length; i++) {
+        html += `
+        <div class="fest__slider-slide swiper-slide">
+        <img src="${photo[year][i]}" alt="" class="fest__slider-img">
+        </div>
+        `
+    }
+    console.log(html);
+    slider1.lastElementChild.innerHTML = html;
+}
+createSlider(2019, slider1);
 /* Проверка поддержки webp, добавление класса для html */
 export function isWebp() {
     //проверка поддержки webp

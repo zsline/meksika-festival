@@ -263,11 +263,16 @@ button {
 
 .fest__slider {
   height: 100%;
-  min-width: 0;
+  max-height: 760px;
   margin-bottom: 80px;
+}
+.fest__slider-slide {
+  height: 100%;
 }
 .fest__slider-slide img {
   width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 .fest__info-item {
   display: grid;
