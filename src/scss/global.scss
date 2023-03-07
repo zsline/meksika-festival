@@ -44,7 +44,7 @@ h1 {
 
 h2 {
     @include title;
-    padding: 80px 0;
+    padding: 50px 0;
     font-size: calc(40px + 26 * (100vw / 1920));
     @media (max-width: 860px) {
         font-size: 40px;
@@ -55,6 +55,10 @@ h2 {
         line-height: 44px;
         -webkit-text-stroke: 0.3px var(--text);
     }
+}
+
+section {
+    margin-bottom: 50px;
 }
 
 .container {

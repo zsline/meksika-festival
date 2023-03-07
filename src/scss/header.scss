@@ -48,6 +48,7 @@
             flex: 0 0 420px;
             @include center;
             justify-content: end;
+            font-size: 18px;
             gap: 40px;
             & p {
                 @media (max-width: 970px) {
