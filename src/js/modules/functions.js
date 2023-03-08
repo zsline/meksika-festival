@@ -16,9 +16,10 @@ function createSlider(year, slider) {
         `
     }
     console.log(html);
-    slider1.lastElementChild.innerHTML = html;
+    slider.lastElementChild.innerHTML = html;
 }
 createSlider(2019, slider1);
+createSlider(2021, slider2);
 /* Проверка поддержки webp, добавление класса для html */
 export function isWebp() {
     //проверка поддержки webp
