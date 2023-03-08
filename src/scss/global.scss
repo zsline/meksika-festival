@@ -57,6 +57,24 @@ h2 {
     }
 }
 
+h3 {
+    display: inline-block;
+    @include title;
+    padding: 50px 0;
+    font-size: calc(30px + 22 * (100vw / 1920));
+    @media (max-width: 860px) {
+        font-size: 30px;
+        padding: 30px 0;
+        font-size: calc(28px + 22 * (100vw / 860));
+    }
+    @media (max-width: 540px) {
+        font-size: 24px;
+        line-height: 44px;
+        -webkit-text-stroke: 0.3px var(--text);
+        font-size: calc(22px + 20 * (100vw / 540));
+    }
+}
+
 section {
     margin-bottom: 50px;
 }
@@ -84,4 +102,6 @@ section {
     background-color: var(--text);
     color: var(--bg);
     margin-top: 30px;
+    cursor: pointer;
+    z-index: 1000;
 }

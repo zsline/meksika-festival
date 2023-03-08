@@ -16,7 +16,7 @@
             display: flex;
             align-items: center;
             gap: 20px;
-            flex: 0 0 420px;
+            flex: 0 0 480px;
             & img {
                 height: 100%;
                 max-width: 50px;
@@ -45,12 +45,13 @@
             }
         }
         &-tel {
-            flex: 0 0 420px;
+            flex: 0 0 480px;
             @include center;
             justify-content: end;
             font-size: 18px;
             gap: 40px;
             & p {
+                margin-right: 40px;
                 @media (max-width: 970px) {
                     display: none;
                 }
@@ -82,6 +83,9 @@
         padding: 0 30px;
         transform: translateY(-180%);
         z-index: 1000;
+    }
+    &__item {
+        margin-right: 20px;
     }
     &__link {
         font-size: 18px;

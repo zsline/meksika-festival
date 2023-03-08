@@ -17,8 +17,11 @@ function createSlider(year, slider) {
     }
     slider.lastElementChild.innerHTML = html;
 }
-createSlider(2019, slider1);
-createSlider(2021, slider2);
+if (document.querySelector('.slider')) {
+    createSlider(2019, slider1);
+    createSlider(2021, slider2);
+}
+
 /* Проверка поддержки webp, добавление класса для html */
 export function isWebp() {
     //проверка поддержки webp
@@ -43,32 +46,52 @@ if (document.querySelector('.nav-menu')) {
         menu.classList.toggle('nav-menu--active');
     })
 }
+if (document.querySelector('.first-fest__slider')) {
+    const swiper = new Swiper('.first-fest__slider, .second-fest__slider', {
+        modules: [Navigation, Pagination],
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
 
-const swiper = new Swiper('.first-fest__slider, .second-fest__slider', {
-    modules: [Navigation, Pagination],
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
+        navigation: {
+            nextEl: '.fest__slider-next',
+            prevEl: '.fest__slider-prev',
+        },
+        autoplay: {
+            delay: 3000,
+        },
+    });
+}
 
-    navigation: {
-        nextEl: '.fest__slider-next',
-        prevEl: '.fest__slider-prev',
-    },
-    autoplay: {
-        delay: 3000,
-    },
-});
-const swiper2 = new Swiper('.second-fest__slider', {
-    modules: [Navigation, Pagination],
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
+if (document.querySelector('.second-fest__slider')) {
+    const swiper2 = new Swiper('.second-fest__slider', {
+        modules: [Navigation, Pagination],
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
 
-    navigation: {
-        nextEl: '.second__slider-next',
-        prevEl: '.second__slider-prev',
-    },
-    autoplay: {
-        delay: 3000,
-    },
-});
+        navigation: {
+            nextEl: '.second__slider-next',
+            prevEl: '.second__slider-prev',
+        },
+        autoplay: {
+            delay: 3000,
+        },
+    });
+}
+if (document.querySelector('.organizers-offer__slider')) {
+    const swiper2 = new Swiper('.organizers-offer__slider', {
+        autoplay: {
+            delay: 2500,
+        },
+        modules: [Navigation, Pagination],
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        navigation: {
+            nextEl: '.fest-next',
+            prevEl: '.fest-prev',
+        },
+    });
+}

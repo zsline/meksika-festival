@@ -1,0 +1,113 @@
+.organizers-offer {
+    height: 100vh;
+    padding-top: 120px;
+    & h1 {
+        margin-top: 100px;
+        @media (max-width: 540px) {
+            margin-top: 20px;
+        }
+    }
+    &__inner {
+        position: relative;
+    }
+    &__slider {
+        width: 100%;
+        height: 500px;
+        margin-top: 50px;
+        padding: 50px 0;
+        z-index: 100;
+        @media (max-width: 960px) {
+            flex-direction: column;
+            height: 100%;
+        }
+        @media (max-width: 540px) {
+            margin-top: 0;
+            padding: 20px 0;
+        }
+        &-inner {
+            display: flex;
+            align-items: start;
+            @media (max-width: 960px) {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            @media (max-width: 540px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+            }
+        }
+        &-logo {
+            max-width: 80px;
+            margin-right: 20px;
+            @media (max-width: 540px) {
+                margin-right: 0;
+            }
+            & img {
+                display: inline-block;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+        &-info {
+            padding: 20px 20px 30px 0px;
+            width: 50%;
+            @media (max-width: 960px) {
+                width: 100%;
+            }
+        }
+        &-img {
+            width: 50%;
+            @media (max-width: 960px) {
+                width: 100%;
+            }
+            & img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+        &-title {
+            text-align: center;
+        }
+        &-next {
+            position: absolute;
+            top: 130px;
+            right: 45%;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 40px;
+            & img {
+                height: 100%;
+            }
+            @media (max-width: 540px) {
+                display: none;
+            }
+        }
+        &-prev {
+            position: absolute;
+            top: 130px;
+            left: 45%;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 40px;
+            & img {
+                height: 100%;
+            }
+            @media (max-width: 540px) {
+                display: none;
+            }
+        }
+    }
+}
