@@ -25,7 +25,18 @@ export const photo = {
         'https://i.ibb.co/ryCSCrf/slide-23.jpg',
         'https://i.ibb.co/pbWrW7f/slide-24.jpg',
         'https://i.ibb.co/R41yDz2/slide-25.jpg',
-        'https://i.ibb.co/wrSRgTT/slide-26.jpg'
+        'https://i.ibb.co/wrSRgTT/slide-26.jpg',
+        'https://i.ibb.co/wdYwnbs/slide-27.jpg',
+        'https://i.ibb.co/G3DSSxz/slide-28.jpg',
+        'https://i.ibb.co/GQhKWbT/slide-29.jpg',
+        'https://i.ibb.co/Rc00jp9/slide-30.jpg',
+        'https://i.ibb.co/j5FhRFR/slide-31.jpg',
+        'https://i.ibb.co/j4H4Js2/slide-32.jpg',
+        'https://i.ibb.co/BK5PQGq/slide-33.jpg',
+        'https://i.ibb.co/RQH7JMC/slide-34.jpg',
+        'https://i.ibb.co/dM5h6km/slide-35.jpg',
+        'https://i.ibb.co/wdH7QkZ/slide-36.jpg',
+        'https://i.ibb.co/SVtDjW0/slide-37.jpg'
     ],
     "2021": [
         'https://i.ibb.co/2k7GCZc/slide-35.jpg',

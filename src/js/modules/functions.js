@@ -15,7 +15,6 @@ function createSlider(year, slider) {
         </div>
         `
     }
-    console.log(html);
     slider.lastElementChild.innerHTML = html;
 }
 createSlider(2019, slider1);
