@@ -8,7 +8,7 @@ const slider2 = document.querySelector('.second-fest__slider')
 
 function createSlider(year, slider) {
     let html = '';
-    for (let i = 0; i <= photo[year].length; i++) {
+    for (let i = 0; i < photo[year].length; i++) {
         html += `
         <div class="fest__slider-slide swiper-slide">
         <img src="${photo[year][i]}" alt="" class="fest__slider-img">
@@ -73,5 +73,3 @@ const swiper2 = new Swiper('.second-fest__slider', {
         delay: 3000,
     },
 });
-
-// const swiper = new Swiper('.first-fest__slider');

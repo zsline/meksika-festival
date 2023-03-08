@@ -28,6 +28,7 @@ export const photo = {
         'https://i.ibb.co/wrSRgTT/slide-26.jpg'
     ],
     "2021": [
+        'https://i.ibb.co/2k7GCZc/slide-35.jpg',
         'https://i.ibb.co/2KWjqq6/slide-1.jpg',
         'https://i.ibb.co/6FzVdF7/slide-2.jpg',
         'https://i.ibb.co/Stmk3V0/slide-3.jpg',
@@ -35,7 +36,7 @@ export const photo = {
         'https://i.ibb.co/mC4GHhC/slide-5.jpg',
         'https://i.ibb.co/BnQT4Rc/slide-6.jpg',
         'https://i.ibb.co/kM7pTpS/slide-7.jpg',
-        'https://i.ibb.co/YfFsSQ7/slide-8.jpg',
+        // 'https://i.ibb.co/YfFsSQ7/slide-8.jpg',
         'https://i.ibb.co/23M6yHC/slide-9.jpg',
         'https://i.ibb.co/MchkqzV/slide-10.jpg',
         'https://i.ibb.co/k8jg2XG/slide-11.jpg',
@@ -48,7 +49,6 @@ export const photo = {
         'https://i.ibb.co/PYK2NB1/slide-18.jpg',
         'https://i.ibb.co/QKsqKTZ/slide-19.jpg',
         'https://i.ibb.co/cN4zk0G/slide-20.jpg',
-        'https://i.ibb.co/MhdvRz8/slide-21.jpg',
         'https://i.ibb.co/GVC6Y3W/slide-22.jpg',
         'https://i.ibb.co/DwmKtNF/slide-23.jpg',
         'https://i.ibb.co/9tvJktQ/slide-24.jpg',
@@ -62,7 +62,6 @@ export const photo = {
         'https://i.ibb.co/KjdZ66k/slide-32.jpg',
         'https://i.ibb.co/qJRMxNv/slide-33.jpg',
         'https://i.ibb.co/fQscQ7D/slide-34.jpg',
-        'https://i.ibb.co/2k7GCZc/slide-35.jpg',
         'https://i.ibb.co/HB1zp7q/slide-36.jpg',
         'https://i.ibb.co/NtfPWMX/slide-37.jpg',
         'https://i.ibb.co/Cn26dCp/slide-38.jpg',
