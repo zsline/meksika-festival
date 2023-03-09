@@ -77,6 +77,12 @@
         &-title {
             text-align: center;
         }
+        &-text {
+            & span {
+                color: var(--text);
+                font-weight: 500;
+            }
+        }
         &-next {
             position: absolute;
             top: 130px;

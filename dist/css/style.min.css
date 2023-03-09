@@ -477,6 +477,7 @@ button {
 body {
   font-family: "Roboto", serif;
   font-size: calc(var(--index) * 1.3);
+  font-weight: 300;
   position: relative;
   background-color: var(--bg);
   color: #fff;
@@ -914,6 +915,10 @@ section {
 }
 .organizers-offer__slider-title {
   text-align: center;
+}
+.organizers-offer__slider-text span {
+  color: var(--text);
+  font-weight: 500;
 }
 .organizers-offer__slider-next {
   position: absolute;
