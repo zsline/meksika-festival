@@ -1,10 +1,13 @@
 import Swiper, { Navigation, Pagination } from "swiper";
 
 import { photo } from './photo.js';
+import { partners } from './partners.js';
 
-// console.log(photo);
-const slider1 = document.querySelector('.first-fest__slider')
-const slider2 = document.querySelector('.second-fest__slider')
+// console.log(partners);
+const slider1 = document.querySelector('.first-fest__slider');
+const slider2 = document.querySelector('.second-fest__slider');
+const partnersBox = document.querySelector('.organizers-top__inner');
+console.dir(partnersBox);
 
 function createSlider(year, slider) {
     let html = '';
@@ -15,8 +18,32 @@ function createSlider(year, slider) {
         </div>
         `
     }
-    slider.lastElementChild.innerHTML = html;
+    slider.lastElementChild.insertAfter(html, elemInsert);
 }
+
+function createPartners(partners) {
+    let html = '';
+    for (let i = 0; i < partners.length; i++) {
+        html += `
+        <div class="fest__info-item">
+        <p class="fest__info-text">
+        ${partners[i].desc}
+        </p>
+        <div class="fest__info-num organizers-top__img">
+            <img src="${partners[i].img}" alt="">
+        </div>
+        <div class="fest__info-title">
+        ${partners[i].name}
+        </div>
+    </div>
+        `
+    }
+    partnersBox.innerHTML = html;
+}
+if (partnersBox) {
+    createPartners(partners)
+}
+
 if (document.querySelector('.slider')) {
     createSlider(2019, slider1);
     createSlider(2021, slider2);

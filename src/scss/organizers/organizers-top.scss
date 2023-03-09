@@ -1,0 +1,19 @@
+.organizers-top {
+    &.fest__info {
+        position: relative;
+    }
+    &__img {
+        overflow: hidden;
+        width: 230px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.organizers-top .fest__info>.fest__bg-1 {
+    position: absolute;
+    top: 250px;
+}
