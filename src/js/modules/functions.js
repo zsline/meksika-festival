@@ -3,6 +3,23 @@ import Swiper, { Navigation, Pagination } from "swiper";
 import { photo } from './photo.js';
 import { partners } from './partners.js';
 
+/* Проверка поддержки webp, добавление класса для html */
+export function isWebp() {
+    //проверка поддержки webp
+    function testWebP(callback) {
+        let webP = new Image();
+        webP.onload = webP.onerror = function() {
+            callback(webP.height == 2);
+        };
+        webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
+    }
+    //добавление класса _webp или _no-webp для HTML
+    testWebP(function(support) {
+        let className = support === true ? 'webp' : 'no-webp';
+        document.documentElement.classList.add(className);
+    });
+}
+
 // console.log(partners);
 const slider1 = document.querySelector('.first-fest__slider');
 const slider2 = document.querySelector('.second-fest__slider');
@@ -90,22 +107,7 @@ if (document.querySelector('.slider')) {
 
 
 
-/* Проверка поддержки webp, добавление класса для html */
-export function isWebp() {
-    //проверка поддержки webp
-    function testWebP(callback) {
-        let webP = new Image();
-        webP.onload = webP.onerror = function() {
-            callback(webP.height == 2);
-        };
-        webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-    }
-    //добавление класса _webp или _no-webp для HTML
-    testWebP(function(support) {
-        let className = support === true ? 'webp' : 'no-webp';
-        document.documentElement.classList.add(className);
-    });
-}
+
 
 if (document.querySelector('.nav-menu')) {
     const btn = document.querySelector('.nav-menu__btn');
