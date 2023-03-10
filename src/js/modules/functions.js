@@ -7,7 +7,7 @@ import { partners } from './partners.js';
 const slider1 = document.querySelector('.first-fest__slider');
 const slider2 = document.querySelector('.second-fest__slider');
 const partnersBox = document.querySelector('.organizers-top__inner');
-console.dir(partnersBox);
+const sliderPartners = document.querySelector('.organizers-offer__slider-wrapper');
 
 function createSlider(year, slider) {
     let html = '';
@@ -27,7 +27,7 @@ function createPartners(partners) {
         html += `
         <div class="fest__info-item">
         <p class="fest__info-text">
-        ${partners[i].desc}
+        ${partners[i].title} "${partners[i].yourName}"<br>${partners[i].desc}
         </p>
         <div class="fest__info-num organizers-top__img">
             <img src="${partners[i].img}" alt="">
@@ -40,14 +40,55 @@ function createPartners(partners) {
     }
     partnersBox.innerHTML = html;
 }
+
+function createPartnersSlide(partners) {
+    let html = '';
+    for (let i = 0; i < partners.length; i++) {
+        if (partners[i].share == true) {
+            html += `
+        <div data-hash="slide-${+[i]+1}" class="swiper-slide organizers-offer__slider-slide">
+        <div class="organizers-offer__slider-inner">
+            <div class="organizers-offer__slider-info">
+                <div class="organizers-offer__slider-title">
+                    <div class="organizers-offer__slider-logo">
+                        <img src="@img/logo.png" alt="">
+                    </div>
+                    <div class="organizers-offer__slider-name">
+                        <h3>${partners[i].yourName}</h3>
+                    </div>
+                </div>
+                <div class="organizers-offer__slider-text">
+                    <p>
+                    ${partners[i].title} <span>"${partners[i].yourName}"</span> ${partners[i].loc}. Початок роботи ${partners[i].data}. ${partners[i].text}.<br>Керівник: <span>${partners[i].name}</span>
+                    </p>
+                </div>
+            </div>
+            <div class="organizers-offer__slider-img">
+                <img src="${partners[i].image}" alt="">
+            </div>
+        </div>
+    </div>
+        `
+        }
+
+    }
+    sliderPartners.innerHTML = html;
+}
+
+
+if (sliderPartners) {
+    createPartnersSlide(partners)
+}
 if (partnersBox) {
     createPartners(partners)
 }
-
 if (document.querySelector('.slider')) {
     createSlider(2019, slider1);
     createSlider(2021, slider2);
 }
+
+
+
 
 /* Проверка поддержки webp, добавление класса для html */
 export function isWebp() {
@@ -116,6 +157,10 @@ if (document.querySelector('.organizers-offer__slider')) {
         spaceBetween: 50,
         loop: true,
         freeMode: true,
+        grabCursor: true,
+        hashNavigation: {
+            // watchState: true,
+        },
         navigation: {
             nextEl: '.fest-next',
             prevEl: '.fest-prev',
