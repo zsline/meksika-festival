@@ -18,7 +18,7 @@ function createSlider(year, slider) {
         </div>
         `
     }
-    slider.lastElementChild.insertAfter(html, elemInsert);
+    slider.lastElementChild.innerHTML = html;
 }
 
 function createPartners(partners) {
