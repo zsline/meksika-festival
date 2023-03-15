@@ -87,7 +87,7 @@ section {
     margin: 0 auto;
 }
 
-.festival_ingo {
+.festival_info {
     padding: 20px 40px;
     border: 1px solid var(--text);
     color: var(--text);
@@ -105,4 +105,125 @@ section {
     margin-top: 30px;
     cursor: pointer;
     z-index: 1000;
+}
+
+.persone {
+    cursor: pointer;
+}
+
+.fest__info-item:nth-child(2n)>.fest__info-text {
+    order: 1;
+    @media (max-width: 740px) {
+        order: 3;
+    }
+}
+
+.fest__info-item:nth-child(2n)>.fest__info-num {
+    order: 2;
+}
+
+.fest__info-item:nth-child(2n)>.fest__info-title {
+    order: 3;
+    @media (max-width: 740px) {
+        order: 1;
+    }
+}
+
+.modal {
+    --transition-time: 0.3s;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    cursor: pointer;
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-time);
+}
+
+.modal::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.modal__container {
+    position: relative;
+    width: 1000px;
+    margin: 50px auto;
+    display: none;
+    vertical-align: middle;
+    text-align: left;
+    background-color: var(--bg);
+    border: 5px solid var(--text);
+    border-radius: 20px;
+    padding: 50px;
+    cursor: default;
+}
+
+.modal-content span {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.modal-content__slider {
+    margin: 20px 0;
+}
+
+.modal-content__slide {
+    display: grid;
+    grid-template-columns: 40% 55%;
+}
+
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #fff;
+}
+
+@media(max-width: 1024px) {
+    .modal__container {
+        width: 90%;
+    }
+}
+
+.modal.is-open {
+    opacity: 1;
+    visibility: visible;
+    transition: all var(--transition-time);
+}
+
+.modal__container.modal-open {
+    display: inline-block;
+}
+
+.fade {
+    opacity: 0;
+    transition: all var(--transition-time);
+}
+
+.fade.animate-open {
+    opacity: 1;
+    transition: all var(--transition-time);
+}
+
+*:focus {
+    outline: 1px solid #000;
+}
+
+.disable-scroll {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100%;
 }

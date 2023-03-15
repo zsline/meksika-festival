@@ -160,21 +160,3 @@
         padding: 0;
     }
 }
-
-.fest__info-item:nth-child(2n)>.fest__info-text {
-    order: 1;
-    @media (max-width: 740px) {
-        order: 3;
-    }
-}
-
-.fest__info-item:nth-child(2n)>.fest__info-num {
-    order: 2;
-}
-
-.fest__info-item:nth-child(2n)>.fest__info-title {
-    order: 3;
-    @media (max-width: 740px) {
-        order: 1;
-    }
-}

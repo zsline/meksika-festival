@@ -2,6 +2,7 @@ import Swiper, { Navigation, Pagination } from "swiper";
 
 import { photo } from './photo.js';
 import { partners } from './partners.js';
+import { Modal } from "./modal.js";
 
 /* Проверка поддержки webp, добавление класса для html */
 export function isWebp() {
@@ -20,10 +21,10 @@ export function isWebp() {
     });
 }
 
-// console.log(partners);
 const slider1 = document.querySelector('.first-fest__slider');
 const slider2 = document.querySelector('.second-fest__slider');
 const partnersBox = document.querySelector('.organizers-top__inner');
+const modalBox = document.querySelector('.modal');
 const sliderPartners = document.querySelector('.organizers-offer__slider-wrapper');
 
 function createSlider(year, slider) {
@@ -39,24 +40,43 @@ function createSlider(year, slider) {
 }
 
 function createPartners(partners) {
+
     let html = '';
+    let modalHtml = '';
     for (let i = 0; i < partners.length; i++) {
         html += `
         <div class="fest__info-item">
-        <p class="fest__info-text">
-        ${partners[i].title} "${partners[i].yourName}"<br>${partners[i].desc}
-        </p>
-        <div class="fest__info-num organizers-top__img">
-            <img src="${partners[i].img}" alt="">
+            <p class="fest__info-text">
+                    ${partners[i].title} "${partners[i].yourName}"<br>${partners[i].desc}
+            </p>
+                <div data-name="${partners[i].dataName}" class="fest__info-num organizers-top__img persone modal-btn"  data-path="${+[i]+1}" data-animation="fadeInUp" data-speed="700">
+                    <img src="${partners[i].img}" alt="">
+                </div>
+            <div class="fest__info-title">
+                ${partners[i].name}
+            </div>
+
         </div>
-        <div class="fest__info-title">
-        ${partners[i].name}
+        `;
+        modalHtml += `
+        <div class="modal__container" data-target="${+[i]+1}">
+            <button class="modal-close">Закрыть</button>
+                <div class="modal-content">
+                    <span>${partners[i].name}</span>, завідувач молодіжним центром <span>"${partners[i].yourName}"</span><br>
+                    <div class="modal-content__slider swiper slider-${partners[i].dataName}">
+                        <div class="swiper-wrapper">
+                            
+                        </div>
+                    </div>
+                </div>
         </div>
-    </div>
         `
     }
     partnersBox.innerHTML = html;
+    modalBox.innerHTML = modalHtml;
 }
+
+
 
 function createPartnersSlide(partners) {
     let html = '';
@@ -169,3 +189,4 @@ if (document.querySelector('.organizers-offer__slider')) {
         },
     });
 }
+new Modal();
