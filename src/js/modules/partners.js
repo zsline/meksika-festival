@@ -2,12 +2,13 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Мексика',
         'name': 'Сергій Дерека',
+        'function': 'завідувач',
         'dataName': 'dereka',
         'share': true,
         'img': 'https://i.ibb.co/njf6P2m/dereka.jpg',
         'image': 'https://i.ibb.co/yfzgY67/slide-47.jpg',
         'slideImages': [{
-                'text': 'Cемінар "Відкрита молодіжна робота" у 2018 році. Організатори семінару "Асоціація молодіжних центрів України". В межах семінару молодь відвідала міста Дружковка, Сєвєродонецьк, села Максимільянівка та Званівка',
+                'text': 'Cемінар <span>"Відкрита молодіжна робота"</span> у 2018 році. Організатори семінару "Асоціація молодіжних центрів України". В межах семінару молодь відвідала міста Дружковка, Сєвєродонецьк, села Максимільянівка та Званівка',
                 'img': [
                     'https://i.ibb.co/XpFYXC7/1.jpg',
                     'https://i.ibb.co/j4XjMp1/2.jpg',
@@ -50,9 +51,52 @@ export const partners = [{
                 ]
             },
             {
-                'text': 'Учасник форуму',
+                'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з засновників, організаторів та учасників у 2019 та 2021 роках у с. Максимільянівка',
                 'img': [
-
+                    '',
+                    ''
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу з командоутворення 2019 - 2020 роки м. Буча.',
+                'img': [
+                    '',
+                    ''
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу <span>"Молодіжний працівник"</span> 2019 р. м. Краматорськ',
+                'img': [
+                    '',
+                    ''
+                ]
+            },
+            {
+                'text': 'Учасник спеціалізованого тренінгу з ЗОЖ <span>"Молодіжний працівник"</span> 2020 р. м. Харків',
+                'img': [
+                    '',
+                    ''
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу <span>"Залучення ресурсів для організацій громадянського суспільства"</span> м. Святогірськ 2019 рік. Тренерка Соломія Боршош.',
+                'img': [
+                    '',
+                    ''
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу <span>"«Маршрут Безбеки» та «Профілактика ВІЛ/СНІДу на робочому місці»"</span> м. Маріуполь 2019 рік. Тренерка Ірина Мінакова.',
+                'img': [
+                    '',
+                    ''
+                ]
+            },
+            {
+                'text': 'Засновник щорічних військово-патріотичних ігор та спортивних змаганнь <span>"Завжди разом"</span> за підтримки цивільно-військового співробітництва с. Максимільянівка з 2019 року',
+                'img': [
+                    '',
+                    ''
                 ]
             }
         ],
@@ -65,14 +109,32 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': '380 volt',
         'name': 'Катерина Волкодавець',
+        'function': 'завідувач',
         'dataName': 'volkodavets',
         'share': true,
         'img': 'https://i.ibb.co/9s64cxt/volkodavets.jpg',
         'image': 'https://i.ibb.co/k2ybzMC/slide-70.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
-        }],
+                'text': 'Cемінар <span>"Відкрита молодіжна робота"</span> у 2018 році. Організатори семінару "Асоціація молодіжних центрів України". В межах семінару молодь відвідала міста Дружковка, Сєвєродонецьк, села Максимільянівка та Званівка',
+                'img': ''
+            },
+            {
+                'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Одна з засновників, організаторів та учасників у 2019 та 2021 роках у с. Максимільянівка',
+                'img': ''
+            },
+            {
+                'text': 'Учасник обласного фестиваля <span>"Дике поле"</span> у 2021 році',
+                'img': ''
+            },
+            {
+                'text': 'Учасник обласного семінара <span>"ПроМц"</span> у 2020 році м. Святогірськ',
+                'img': ''
+            },
+            {
+                'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
+                'img': ''
+            }
+        ],
         'desc': '',
         'loc': 'м. Курахове Кураховської ВЦА  Донецької області',
         'data': '2019 рік',
@@ -82,14 +144,20 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Lider-Hub',
         'name': 'Антон Гладкий',
+        'function': 'завідувач',
         'dataName': 'gladkiy',
         'share': true,
         'img': 'https://i.ibb.co/WvTzYkT/gladkiy.jpg',
         'image': 'https://i.ibb.co/xghSF9M/slide-101.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
-        }],
+                'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з організаторів та учасників у 2021 році с. Максимільянівка',
+                'img': ''
+            },
+            {
+                'text': 'Засновник дитячого туристично-спортивного табору <span>"Спадок"</span>',
+                'img': ''
+            }
+        ],
         'desc': '',
         'loc': 'с. Дачне Кураховської ВЦА  Донецької області',
         'data': '2020 році',
@@ -99,14 +167,20 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Вікторія',
         'name': 'Олександра Клименко',
+        'function': 'завідувач',
         'dataName': 'klimenko',
         'share': true,
         'img': 'https://i.ibb.co/WBkxr0b/klimenko.jpg',
         'image': 'https://i.ibb.co/wCMjM4M/slide-19.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
-        }],
+                'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Одна з засновників, організаторів та учасників у 2019 році с. Максимільянівка',
+                'img': ''
+            },
+            {
+                'text': 'Організатор <span>"Ліги майбутніх поліцейських"</span> м. Мар"їнка',
+                'img': ''
+            }
+        ],
         'desc': '',
         'loc': 'м. Мар"їнка Мар"їнської ВЦА  Донецької області',
         'data': '2016 році',
@@ -116,12 +190,13 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Надія',
         'name': 'Данил Глущенко',
+        'function': 'завідувач',
         'dataName': 'gluschenko',
         'share': true,
         'img': 'https://i.ibb.co/Hx4bq68/gluschenko.jpg',
         'image': 'https://i.ibb.co/2KWjqq6/slide-1.jpg',
         'slideImages': [{
-            'text': '',
+            'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з організаторів та учасників у 2021 році с. Максимільянівка',
             'img': ''
         }],
         'desc': '',
@@ -133,12 +208,13 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Надія',
         'name': 'Єгор Лагутін',
+        'function': 'завідувач',
         'dataName': 'lagutin',
         'share': false,
         'img': 'https://i.ibb.co/Vpbj0Hr/lagutin.jpg',
         'image': 'https://i.ibb.co/2KWjqq6/slide-1.jpg',
         'slideImages': [{
-            'text': '',
+            'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з засновників, організаторів та учасників у 2019 році с. Максимільянівка',
             'img': ''
         }],
         'desc': '',
@@ -150,14 +226,20 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Крок до мрії',
         'name': 'Катерина Мерзлікіна',
+        'function': 'завідувач',
         'dataName': 'merzlikina',
         'share': true,
         'img': 'https://i.ibb.co/WVWX7Tk/merzlikina.jpg',
         'image': 'https://i.ibb.co/BTKXD3V/slide-118.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
-        }],
+                'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Одна з засновників, організаторів та учасників у 2019 та 2021 роках с. Максимільянівка',
+                'img': ''
+            },
+            {
+                'text': '',
+                'img': ''
+            }
+        ],
         'desc': '',
         'loc': 'с. Новомихайлівка Мар"їнської ВЦА  Донецької області',
         'data': '28 грудня 2018 року',
@@ -167,12 +249,13 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'ElizavetCity',
         'name': 'Ольга Грищенко',
+        'function': 'завідувач',
         'dataName': 'grischenko',
         'share': true,
         'img': 'https://i.ibb.co/gTp13MM/grischenko.jpg',
         'image': 'https://i.ibb.co/LSPm3bx/slide-121.jpg',
         'slideImages': [{
-            'text': '',
+            'text': 'Засновниця ГО ',
             'img': ''
         }],
         'desc': '',
@@ -184,6 +267,7 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'ElizavetCity',
         'name': 'Дмитро Гришков',
+        'function': 'завідувач',
         'dataName': 'grishkov',
         'share': false,
         'img': 'https://i.ibb.co/K0smCWP/grishko.jpg',
@@ -201,6 +285,7 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Гармонія',
         'name': 'Юлія Кольчик',
+        'function': 'завідувач',
         'dataName': 'kolchik',
         'share': true,
         'img': 'https://i.ibb.co/DwcSNXQ/kolchik.jpg',
@@ -218,6 +303,7 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Fox',
         'name': 'Марина Ткаченко',
+        'function': 'завідувач',
         'dataName': 'tkachenko',
         'share': true,
         'img': 'https://i.ibb.co/mvNgFtb/marina.jpg',
@@ -235,6 +321,7 @@ export const partners = [{
         'title': 'Молодіжний центр',
         'yourName': 'Fox',
         'name': 'Тетяна Василенко',
+        'function': 'завідувач',
         'dataName': 'vasilenko',
         'share': false,
         'img': 'https://i.ibb.co/z2ZvmsY/vasilenko.jpg',
@@ -249,9 +336,10 @@ export const partners = [{
         'text': ''
     },
     {
-        'title': '',
+        'title': 'КПНЗ',
         'yourName': 'ДОДМЦ',
         'name': 'Аліна Сорокіна',
+        'function': 'директор',
         'dataName': 'sorokina',
         'share': true,
         'img': 'https://i.ibb.co/Fbx4fGk/sorokima.jpg',
@@ -265,5 +353,23 @@ export const partners = [{
         'data': '2009 році',
         'text': 'Спонсор обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> у 2021 році.'
     },
+    {
+        'title': 'ГО',
+        'yourName': 'Теплиця',
+        'name': 'Ганна Авдіянц',
+        'function': 'директор',
+        'dataName': 'avdiyants',
+        'share': true,
+        'img': 'https://i.ibb.co/Fbx4fGk/sorokima.jpg',
+        'image': 'https://i.ibb.co/2k7GCZc/slide-35.jpg',
+        'slideImages': [{
+            'text': '',
+            'img': ''
+        }],
+        'desc': '',
+        'loc': 'м. Слав"янськ Донецької області',
+        'data': '2009 році',
+        'text': 'Спікер обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> у 2021 році.'
+    }
 
 ]

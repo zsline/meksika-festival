@@ -27,6 +27,10 @@ const partnersBox = document.querySelector('.organizers-top__inner');
 const modalBox = document.querySelector('.modal');
 const sliderPartners = document.querySelector('.organizers-offer__slider-wrapper');
 
+//====================================================
+//слайдеры основные
+//====================================================
+// генератор слайдеров по годам
 function createSlider(year, slider) {
     let html = '';
     for (let i = 0; i < photo[year].length; i++) {
@@ -38,9 +42,8 @@ function createSlider(year, slider) {
     }
     slider.lastElementChild.innerHTML = html;
 }
-
+// генератор списка организаторов фестиваля
 function createPartners(partners) {
-
     let html = '';
     let modalHtml = '';
     for (let i = 0; i < partners.length; i++) {
@@ -49,7 +52,7 @@ function createPartners(partners) {
             <p class="fest__info-text">
                     ${partners[i].title} "${partners[i].yourName}"<br>${partners[i].desc}
             </p>
-                <div data-name="${partners[i].dataName}" class="fest__info-num organizers-top__img persone modal-btn"  data-path="${+[i]+1}" data-animation="fadeInUp" data-speed="700">
+                <div data-name="${partners[i].dataName}" class="fest__info-num organizers-top__img persone modal-btn"  data-path="${[i]}" data-animation="fadeInUp" data-speed="700">
                     <img src="${partners[i].img}" alt="">
                 </div>
             <div class="fest__info-title">
@@ -57,15 +60,15 @@ function createPartners(partners) {
             </div>
 
         </div>
-        `;
+        `
         modalHtml += `
-        <div class="modal__container" data-target="${+[i]+1}">
+        <div class="modal__container" data-target="${[i]}">
             <button class="modal-close">Закрыть</button>
                 <div class="modal-content">
-                    <span>${partners[i].name}</span>, завідувач молодіжним центром <span>"${partners[i].yourName}"</span><br>
-                    <div class="modal-content__slider swiper slider-${partners[i].dataName}">
-                        <div class="swiper-wrapper">
-                            
+                    <span>${partners[i].name}</span>, ${partners[i].title} <span>"${partners[i].yourName}"</span> ${partners[i].function}<br>
+                    <div class="slider-${partners[i].dataName} modal-content__slider swiper swiper-modal" style="position: relative;">
+                        <div class="swiper-wrapper" style="min-width:0;">
+                           ${sliderModal(partners, partners[i].dataName)}
                         </div>
                     </div>
                 </div>
@@ -75,15 +78,13 @@ function createPartners(partners) {
     partnersBox.innerHTML = html;
     modalBox.innerHTML = modalHtml;
 }
-
-
-
+// генератор слайдера организаторов фестиваля
 function createPartnersSlide(partners) {
     let html = '';
     for (let i = 0; i < partners.length; i++) {
         if (partners[i].share == true) {
             html += `
-        <div data-hash="slide-${+[i]+1}" class="swiper-slide organizers-offer__slider-slide">
+        <div data-hash="slide-${[i]}" class="swiper-slide organizers-offer__slider-slide">
         <div class="organizers-offer__slider-inner">
             <div class="organizers-offer__slider-info">
                 <div class="organizers-offer__slider-title">
@@ -110,6 +111,47 @@ function createPartnersSlide(partners) {
 
     }
     sliderPartners.innerHTML = html;
+}
+
+//====================================================
+// слайдеры модальных окон
+//====================================================
+// слайдер модального окна основной по мероприятиям
+//=========================
+
+// внешний слайдер модального окна
+function sliderModal(item, name) {
+    let items = [];
+    for (let i = 0; i < item.length; i++) {
+        let nameItem = item[i].dataName;
+        if (nameItem == name) {
+            let html = '';
+            for (let x = 0; x < item[i].slideImages.length; x++) {
+                html += `<div class="swiper-slide">
+                            <p class="slide-text">${partners[i].slideImages[x].text}</p>
+                                <div>
+                                    slider
+                                </div>
+                        </div>`
+            }
+            items.push(html);
+            html = '';
+        }
+    }
+    return items.join('');
+}
+
+
+
+
+//==============================================
+
+//==============================================
+
+
+// слайдер фотографий мероприятия
+function createSliderIvent() {
+
 }
 
 
@@ -189,4 +231,111 @@ if (document.querySelector('.organizers-offer__slider')) {
         },
     });
 }
+
+
+
+
+
+if (document.querySelector('.modal')) {
+    new Swiper('.slider-dereka', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-volkodavets', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-gladkiy', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-klimenko', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-gluschenko', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-lagutin', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-merzlikina', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-grischenko', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-grishkov', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-kolchik', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-tkachenko', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-vasilenko', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-sorokina', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-avdiyants', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+}
+
+
 new Modal();

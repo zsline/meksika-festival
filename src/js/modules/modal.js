@@ -79,7 +79,6 @@ export class Modal {
         this.modal.style.setProperty('--transition-time', `${this.speed / 1000}s`);
         this.modal.classList.add('is-open');
         // this.disableScroll();
-
         this.modalContainer.classList.add('modal-open');
         this.modalContainer.classList.add(this.animation);
         setTimeout(() => {
