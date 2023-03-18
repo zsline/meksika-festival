@@ -679,6 +679,15 @@ section {
     width: 90%;
   }
 }
+@media (max-width: 560px) {
+  .modal__container {
+    font-size: 18px;
+    width: 98%;
+    padding: 50px 10px;
+    margin: 0;
+    height: 98vh;
+  }
+}
 .modal.is-open {
   opacity: 1;
   visibility: visible;

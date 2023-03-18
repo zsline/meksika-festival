@@ -53,14 +53,14 @@ export const partners = [{
             {
                 'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з засновників, організаторів та учасників у 2019 та 2021 роках у с. Максимільянівка',
                 'img': [
-                    '',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
                 ]
             },
             {
                 'text': 'Учасник тренінгу з командоутворення 2019 - 2020 роки м. Буча.',
                 'img': [
-                    '',
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
                     ''
                 ]
             },
@@ -116,19 +116,81 @@ export const partners = [{
         'image': 'https://i.ibb.co/k2ybzMC/slide-70.jpg',
         'slideImages': [{
                 'text': 'Cемінар <span>"Відкрита молодіжна робота"</span> у 2018 році. Організатори семінару "Асоціація молодіжних центрів України". В межах семінару молодь відвідала міста Дружковка, Сєвєродонецьк, села Максимільянівка та Званівка',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/YXzvfNX/1.jpg',
+                    'https://i.ibb.co/8PjJrgp/2.jpg',
+                    'https://i.ibb.co/5YnfDpD/3.jpg',
+                    'https://i.ibb.co/8b1NQ72/4.jpg',
+                    'https://i.ibb.co/DkJCjD1/5.jpg',
+                    'https://i.ibb.co/W6B6ZZC/6.jpg',
+                    'https://i.ibb.co/35bkDvw/7.jpg',
+                    'https://i.ibb.co/VVnKxRJ/8.jpg',
+                    'https://i.ibb.co/HhQQBtR/9.jpg',
+                    'https://i.ibb.co/64L0kqF/10.jpg',
+                    'https://i.ibb.co/c8B7cpr/11.jpg',
+                    'https://i.ibb.co/w6Nnpz6/12.jpg',
+                    'https://i.ibb.co/JxnZ8yt/13.jpg'
+                ]
             },
             {
                 'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Одна з засновників, організаторів та учасників у 2019 та 2021 роках у с. Максимільянівка',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/gFhq472/1.jpg',
+                    'https://i.ibb.co/gwtPY5N/2.jpg',
+                    'https://i.ibb.co/F0dCrw1/3.jpg',
+                    'https://i.ibb.co/J3HFrF8/4.jpg',
+                    'https://i.ibb.co/KFK91Kx/5.jpg',
+                    'https://i.ibb.co/X4kB564/6.jpg',
+                    'https://i.ibb.co/ZX95h1d/7.jpg',
+                    'https://i.ibb.co/4MjgWNW/8.jpg',
+                    'https://i.ibb.co/vzWTSyF/9.jpg',
+                    'https://i.ibb.co/NF1nSyp/10.jpg'
+                ]
             },
             {
                 'text': 'Учасник обласного фестиваля <span>"Дике поле"</span> у 2021 році',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/mBdNwJP/1.jpg',
+                    'https://i.ibb.co/PxZ2LN6/2.jpg',
+                    'https://i.ibb.co/9y4M5P4/3.jpg',
+                    'https://i.ibb.co/7tN6Yxs/4.jpg',
+                    'https://i.ibb.co/wRdy0jY/5.jpg',
+                    'https://i.ibb.co/2K6P18v/6.jpg',
+                    'https://i.ibb.co/3yXV6FY/7.jpg',
+                    'https://i.ibb.co/Jkq9GYH/8.jpg',
+                    'https://i.ibb.co/Ssc7QtC/9.jpg',
+                    'https://i.ibb.co/Yhj2kTk/10.jpg',
+                    'https://i.ibb.co/XCBfZjY/11.jpg',
+                    'https://i.ibb.co/1fVFrSC/12.jpg',
+                    'https://i.ibb.co/k2n4CHh/13.jpg',
+                    'https://i.ibb.co/Qddv9hr/14.jpg',
+                    'https://i.ibb.co/Gvm0J1M/15.jpg',
+                    'https://i.ibb.co/GsxpbCL/16.jpg',
+                    'https://i.ibb.co/k06tRnb/17.jpg'
+                ]
             },
             {
                 'text': 'Учасник обласного семінара <span>"ПроМц"</span> у 2020 році м. Святогірськ',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/w78rN8y/1.jpg',
+                    'https://i.ibb.co/wcpR2W8/2.jpg',
+                    'https://i.ibb.co/V9MmPWs/3.jpg',
+                    'https://i.ibb.co/gDXFTjZ/4.jpg',
+                    'https://i.ibb.co/5jTNsJv/5.jpg',
+                    'https://i.ibb.co/p2CtRMp/6.jpg',
+                    'https://i.ibb.co/tQgH0Rk/7.jpg',
+                    'https://i.ibb.co/tP8KkZH/8.jpg',
+                    'https://i.ibb.co/68LVSqj/9.jpg',
+                    'https://i.ibb.co/YT0fyjb/10.jpg',
+                    'https://i.ibb.co/kSHtL4D/11.jpg',
+                    'https://i.ibb.co/vw3kjBP/12.jpg',
+                    'https://i.ibb.co/vcYQZjV/13.jpg',
+                    'https://i.ibb.co/JpR1BPk/14.jpg',
+                    'https://i.ibb.co/YLdmfCB/15.jpg',
+                    'https://i.ibb.co/MpqmLHt/16.jpg',
+                    'https://i.ibb.co/T12zJ5C/17.jpg',
+                    'https://i.ibb.co/vJ11B3K/18.jpg'
+                ]
             },
             {
                 'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',

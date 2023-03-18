@@ -127,11 +127,14 @@ function sliderModal(item, name) {
         if (nameItem == name) {
             let html = '';
             for (let x = 0; x < item[i].slideImages.length; x++) {
+
                 html += `<div class="swiper-slide">
-                            <p class="slide-text">${partners[i].slideImages[x].text}</p>
-                                <div>
-                                    slider
-                                </div>
+                            <p class="slide-text">${item[i].slideImages[x].text}</p>
+                            <div class="slider-${item[i].dataName}-${[x]} swiper">
+                            <div class="swiper-wrapper">
+                            ${createSliderIvent(item[i].slideImages[x].img)}
+                            </div>
+                            </div>
                         </div>`
             }
             items.push(html);
@@ -150,9 +153,21 @@ function sliderModal(item, name) {
 
 
 // слайдер фотографий мероприятия
-function createSliderIvent() {
-
+function createSliderIvent(images) {
+    let htmlImg = '';
+    for (let i = 0; i < images.length; i++) {
+        htmlImg += `
+    <img class="swiper-slide" src="${images[i]}" alt=""/>
+    `
+    }
+    return htmlImg
 }
+
+
+
+console.log(createSliderIvent(partners[1].slideImages[0].img));
+
+
 
 
 if (sliderPartners) {
@@ -244,7 +259,42 @@ if (document.querySelector('.modal')) {
         freeMode: true,
         grabCursor: true,
     })
+    new Swiper('.slider-dereka-0', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
     new Swiper('.slider-volkodavets', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-volkodavets-0', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-volkodavets-1', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-volkodavets-2', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        freeMode: true,
+        grabCursor: true,
+    })
+    new Swiper('.slider-volkodavets-3', {
         slidesPerView: 1,
         spaceBetween: 50,
         loop: true,
