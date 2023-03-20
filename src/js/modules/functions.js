@@ -66,7 +66,15 @@ function createPartners(partners) {
             <button class="modal-close">Закрыть</button>
                 <div class="modal-content">
                     <span>${partners[i].name}</span>, ${partners[i].title} <span>"${partners[i].yourName}"</span> ${partners[i].function}<br>
-                    <div class="slider-${partners[i].dataName} modal-content__slider swiper swiper-modal" style="position: relative;">
+                    <div data-slider="slider-${partners[i].dataName}" class="slider-${partners[i].dataName} modal-content__slider swiper swiper-modal" style="position: relative;">
+                    <div class="fest-btns">
+                    <div class="next-slider-${partners[i].dataName} arrow-item-next arrow-btn">
+                        <img src="img/arrow-next.svg" alt="">
+                    </div>
+                    <div class="prev-slider-${partners[i].dataName} arrow-item-prev arrow-btn">
+                        <img src="img/arrow-prev.svg" alt="">
+                    </div>
+                </div>
                         <div class="swiper-wrapper" style="min-width:0;">
                            ${sliderModal(partners, partners[i].dataName)}
                         </div>
@@ -89,7 +97,7 @@ function createPartnersSlide(partners) {
             <div class="organizers-offer__slider-info">
                 <div class="organizers-offer__slider-title">
                     <div class="organizers-offer__slider-logo">
-                        <img src="@img/logo.png" alt="">
+                        <img src="img/logo.png" alt="">
                     </div>
                     <div class="organizers-offer__slider-name">
                         <h3>${partners[i].yourName}</h3>
@@ -127,15 +135,23 @@ function sliderModal(item, name) {
         if (nameItem == name) {
             let html = '';
             for (let x = 0; x < item[i].slideImages.length; x++) {
-
                 html += `<div class="swiper-slide">
                             <p class="slide-text">${item[i].slideImages[x].text}</p>
-                            <div class="slider-${item[i].dataName}-${[x]} swiper">
+                            <div data-slider="slider-${item[i].dataName}-${[x]}" class="slider-${item[i].dataName}-${[x]} swiper slider-item">
+                            <div class="fest-btns">
+                            <div class="next-slider-${item[i].dataName}-${[x]} arrow-item-next arrow-btn">
+                                <img src="img/arrow-next.svg" alt="">
+                            </div>
+                            <div class="prev-slider-${item[i].dataName}-${[x]} arrow-item-prev arrow-btn">
+                                <img src="img/arrow-prev.svg" alt="">
+                            </div>
+                        </div>
                             <div class="swiper-wrapper">
                             ${createSliderIvent(item[i].slideImages[x].img)}
                             </div>
                             </div>
                         </div>`
+
             }
             items.push(html);
             html = '';
@@ -165,7 +181,6 @@ function createSliderIvent(images) {
 
 
 
-console.log(createSliderIvent(partners[1].slideImages[0].img));
 
 
 
@@ -247,145 +262,47 @@ if (document.querySelector('.organizers-offer__slider')) {
     });
 }
 
-
-
-
-
-if (document.querySelector('.modal')) {
-    new Swiper('.slider-dereka', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-dereka-0', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-volkodavets', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-volkodavets-0', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-volkodavets-1', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-volkodavets-2', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-volkodavets-3', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-gladkiy', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-klimenko', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-gluschenko', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-lagutin', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-merzlikina', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-grischenko', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-grishkov', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-kolchik', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-tkachenko', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-vasilenko', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-sorokina', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
-    new Swiper('.slider-avdiyants', {
-        slidesPerView: 1,
-        spaceBetween: 50,
-        loop: true,
-        freeMode: true,
-        grabCursor: true,
-    })
+const sliders = document.querySelectorAll('.slider-item')
+if (sliders) {
+    for (let i = 0; i < sliders.length; i++) {
+        let data = sliders[i].dataset['slider'];
+        new Swiper(`.${data}`, {
+            modules: [Navigation, Pagination],
+            navigation: {
+                nextEl: `.next-${data}`,
+                prevEl: `.prev-${data}`,
+            },
+            slidesPerView: 1,
+            spaceBetween: 50,
+            loop: true,
+            freeMode: true,
+            grabCursor: true,
+            // observer: true,
+            // observeParents: true
+        })
+    }
 }
+const slidersModal = document.querySelectorAll('.swiper-modal')
+if (slidersModal) {
+    for (let i = 0; i < slidersModal.length; i++) {
+        let data = slidersModal[i].dataset['slider'];
+        new Swiper(`.${data}`, {
+            modules: [Navigation, Pagination],
+            navigation: {
+                nextEl: `.next-${data}`,
+                prevEl: `.prev-${data}`,
+            },
+            slidesPerView: 1,
+            spaceBetween: 50,
+            loop: true,
+            freeMode: true,
+            grabCursor: true,
+            // observer: true,
+            // observeParents: true
+        })
+    }
+}
+
 
 
 new Modal();

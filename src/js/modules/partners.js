@@ -61,42 +61,80 @@ export const partners = [{
                 'text': 'Учасник тренінгу з командоутворення 2019 - 2020 роки м. Буча.',
                 'img': [
                     'https://i.ibb.co/6mZD4Df/26.jpg',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
                 ]
             },
             {
                 'text': 'Учасник тренінгу <span>"Молодіжний працівник"</span> 2019 р. м. Краматорськ',
                 'img': [
-                    '',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
                 ]
             },
             {
                 'text': 'Учасник спеціалізованого тренінгу з ЗОЖ <span>"Молодіжний працівник"</span> 2020 р. м. Харків',
                 'img': [
-                    '',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
                 ]
             },
             {
                 'text': 'Учасник тренінгу <span>"Залучення ресурсів для організацій громадянського суспільства"</span> м. Святогірськ 2019 рік. Тренерка Соломія Боршош.',
                 'img': [
-                    '',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
                 ]
             },
             {
                 'text': 'Учасник тренінгу <span>"«Маршрут Безбеки» та «Профілактика ВІЛ/СНІДу на робочому місці»"</span> м. Маріуполь 2019 рік. Тренерка Ірина Мінакова.',
                 'img': [
-                    '',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник третього всеукраїнського форуму молодіжних працівників та працівниць <span>"Digital у молодіжній роботі" 31.11 - 2.12 2019 року м. Луцьк</span>',
+                'img': [
+                    'https://i.ibb.co/rHNtvFv/1.jpg',
+                    'https://i.ibb.co/BrHRgcp/2.jpg',
+                    'https://i.ibb.co/68sSsBX/3.jpg',
+                    'https://i.ibb.co/DLdMTNP/4.jpg',
+                    'https://i.ibb.co/RcSkCPz/5.jpg',
+                    'https://i.ibb.co/kG28BzT/6.jpg',
+                    'https://i.ibb.co/pWdtJMx/7.jpg',
+                    'https://i.ibb.co/Bj9FQQh/8.jpg',
+                    'https://i.ibb.co/vZvWY6V/9.jpg',
+                    'https://i.ibb.co/2KN3QWR/10.jpg',
+                    'https://i.ibb.co/L532nrb/11.jpg',
+                    'https://i.ibb.co/gP76jv9/12.jpg',
+                    'https://i.ibb.co/MNBfb0c/13.jpg',
+                    'https://i.ibb.co/59pnyg6/14.jpg',
+                    'https://i.ibb.co/jJHz35W/15.jpg',
+                    'https://i.ibb.co/8sqNVpW/16.jpg',
+                    'https://i.ibb.co/kxw2wV5/17.jpg',
+                    'https://i.ibb.co/cC4WWNw/18.jpg',
+                    'https://i.ibb.co/19TFPKy/19.jpg',
+                    'https://i.ibb.co/hBC5549/20.jpg',
+                    'https://i.ibb.co/BrPfmd6/21.jpg',
+                    'https://i.ibb.co/vv7vJ4Q/22.jpg',
+                    'https://i.ibb.co/m0bK6R2/23.jpg',
+                    'https://i.ibb.co/LdqF35X/24.jpg',
+                    'https://i.ibb.co/rdZbS1N/25.jpg',
+                    'https://i.ibb.co/PT6CqM8/26.jpg',
+                    'https://i.ibb.co/Jrn4Zqx/27.jpg',
+                    'https://i.ibb.co/D9XKRbp/28.jpg',
+                    'https://i.ibb.co/PwZm7bz/29.jpg',
+                    'https://i.ibb.co/ZBnByfK/30.jpg',
+                    'https://i.ibb.co/Czc8Gsc/31.jpg',
+                    'https://i.ibb.co/PrBxVtS/32.jpg',
+                    'https://i.ibb.co/3Ms0C1R/33.jpg'
                 ]
             },
             {
                 'text': 'Засновник щорічних військово-патріотичних ігор та спортивних змаганнь <span>"Завжди разом"</span> за підтримки цивільно-військового співробітництва с. Максимільянівка з 2019 року',
                 'img': [
-                    '',
-                    ''
+                    'https://i.ibb.co/6mZD4Df/26.jpg',
+                    'https://i.ibb.co/6mZD4Df/26.jpg'
                 ]
             }
         ],
@@ -144,7 +182,8 @@ export const partners = [{
                     'https://i.ibb.co/ZX95h1d/7.jpg',
                     'https://i.ibb.co/4MjgWNW/8.jpg',
                     'https://i.ibb.co/vzWTSyF/9.jpg',
-                    'https://i.ibb.co/NF1nSyp/10.jpg'
+                    'https://i.ibb.co/NF1nSyp/10.jpg',
+                    'https://i.ibb.co/mGtnyNc/slide-100.jpg'
                 ]
             },
             {
