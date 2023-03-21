@@ -79,8 +79,15 @@ export const partners = [{
             {
                 'text': 'Учасник тренінгу <span>"Молодіжний працівник"</span> 2019 р. м. Краматорськ',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/Jt3h7m8/22.jpg',
+                    'https://i.ibb.co/zJ7T454/16.jpg',
+                    'https://i.ibb.co/RQ5Lmm8/26.jpg',
+                    'https://i.ibb.co/pJD6tkd/25.jpg',
+                    'https://i.ibb.co/yP3LX8w/24.jpg',
+                    'https://i.ibb.co/HTnjBLY/15.jpg',
+                    'https://i.ibb.co/7tk6XfL/13.jpg',
+                    'https://i.ibb.co/85QqKWX/10.jpg',
+                    'https://i.ibb.co/pyp38Xm/3.jpg'
                 ]
             },
             {
@@ -238,6 +245,22 @@ export const partners = [{
                     'https://i.ibb.co/WfdNB7b/5.jpg',
                     'https://i.ibb.co/hKfCJMf/6.jpg',
                     'https://i.ibb.co/0FNDgWS/7.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу <span>"Молодіжний працівник"</span> 2019 р. м. Краматорськ',
+                'img': [
+                    'https://i.ibb.co/Jt3h7m8/22.jpg',
+                    'https://i.ibb.co/RQ5Lmm8/26.jpg',
+                    'https://i.ibb.co/7tk6XfL/13.jpg',
+                    'https://i.ibb.co/85QqKWX/10.jpg',
+                    'https://i.ibb.co/4TVxRmg/20.jpg',
+                    'https://i.ibb.co/3smf7RW/28.jpg',
+                    'https://i.ibb.co/FhCDP3Y/27.jpg',
+                    'https://i.ibb.co/1QL0sJ0/12.jpg',
+                    'https://i.ibb.co/2jXT7R0/11.jpg',
+                    'https://i.ibb.co/51bLKtv/14.jpg',
+
                 ]
             },
             {
