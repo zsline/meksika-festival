@@ -53,8 +53,20 @@ export const partners = [{
             {
                 'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з засновників, організаторів та учасників у 2019 та 2021 роках у с. Максимільянівка',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/qJRMxNv/slide-33.jpg',
+                    'https://i.ibb.co/Cn26dCp/slide-38.jpg',
+                    'https://i.ibb.co/9tvJktQ/slide-24.jpg',
+                    'https://i.ibb.co/DwmKtNF/slide-23.jpg',
+                    'https://i.ibb.co/j5bPDSk/slide-57.jpg',
+                    'https://i.ibb.co/znMmKML/slide-58.jpg',
+                    'https://i.ibb.co/KxBNwZh/slide-60.jpg',
+                    'https://i.ibb.co/ChG66c7/slide-61.jpg',
+                    'https://i.ibb.co/fFWZV4P/slide-85.jpg',
+                    'https://i.ibb.co/zZcfBXz/slide-41.jpg',
+                    'https://i.ibb.co/mC4GHhC/slide-5.jpg',
+                    'https://i.ibb.co/Stmk3V0/slide-3.jpg',
+                    'https://i.ibb.co/6FzVdF7/slide-2.jpg',
+                    'https://i.ibb.co/cNXGCPF/slide-77.jpg'
                 ]
             },
             {
@@ -74,26 +86,56 @@ export const partners = [{
             {
                 'text': 'Учасник спеціалізованого тренінгу з ЗОЖ <span>"Молодіжний працівник"</span> 2020 р. м. Харків',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/x3q1H29/7.jpg',
+                    'https://i.ibb.co/PCJ5cXr/2.jpg',
+                    'https://i.ibb.co/wzHPXjy/3.jpg',
+                    'https://i.ibb.co/kqfgdmh/5.jpg',
+                    'https://i.ibb.co/X2VGcbL/8.jpg',
+                    'https://i.ibb.co/SdzvK7G/11.jpg',
+                    'https://i.ibb.co/jVvjkcJ/12.jpg',
+                    'https://i.ibb.co/GCjdqmN/14.jpg',
+                    'https://i.ibb.co/BgJN7ZV/15.jpg',
+                    'https://i.ibb.co/m6zbPn4/22.jpg'
                 ]
             },
             {
                 'text': 'Учасник тренінгу <span>"Залучення ресурсів для організацій громадянського суспільства"</span> м. Святогірськ 2019 рік. Тренерка Соломія Боршош.',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/mhvMrj1/1.jpg',
+                    'https://i.ibb.co/1Gsh5JP/2.jpg',
+                    'https://i.ibb.co/JKYPMFZ/3.jpg',
+                    'https://i.ibb.co/8Dy1Jv2/4.jpg',
+                    'https://i.ibb.co/WfdNB7b/5.jpg',
+                    'https://i.ibb.co/hKfCJMf/6.jpg',
+                    'https://i.ibb.co/0FNDgWS/7.jpg',
+                    'https://i.ibb.co/v4ChFp2/8.jpg'
                 ]
             },
             {
                 'text': 'Учасник тренінгу <span>"«Маршрут Безбеки» та «Профілактика ВІЛ/СНІДу на робочому місці»"</span> м. Маріуполь 2019 рік. Тренерка Ірина Мінакова.',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/j5VwWWg/11.jpg',
+                    'https://i.ibb.co/xDJG4G7/1.jpg',
+                    'https://i.ibb.co/z5hGz1y/2.jpg',
+                    'https://i.ibb.co/qDSjBfk/3.jpg',
+                    'https://i.ibb.co/r4M5bxw/4.jpg',
+                    'https://i.ibb.co/K5Gdkn8/10.jpg',
+                    'https://i.ibb.co/C9G23Jd/5.jpg',
+                    'https://i.ibb.co/HtWHWdd/6.jpg',
+                    'https://i.ibb.co/8KQ6vxh/7.jpg',
+                    'https://i.ibb.co/Jv3V9m8/8.jpg',
+                    'https://i.ibb.co/cbmPwHq/9.jpg',
+                    'https://i.ibb.co/HGn72my/12.jpg',
+                    'https://i.ibb.co/tJGMJ54/13.jpg',
+                    'https://i.ibb.co/tPpRGH4/14.jpg',
+                    'https://i.ibb.co/0Zn50yR/15.jpg',
+                    'https://i.ibb.co/4V4rN0n/16.jpg',
+                    'https://i.ibb.co/Mg5kpw9/17.jpg',
+                    'https://i.ibb.co/vjz52Y7/18.jpg'
                 ]
             },
             {
-                'text': 'Учасник третього всеукраїнського форуму молодіжних працівників та працівниць <span>"Digital у молодіжній роботі" 31.11 - 2.12 2019 року м. Луцьк</span>',
+                'text': 'Учасник третього всеукраїнського форуму молодіжних працівників та працівниць <span>"Digital у молодіжній роботі"</span> 31.11 - 2.12 2019 року м. Луцьк',
                 'img': [
                     'https://i.ibb.co/rHNtvFv/1.jpg',
                     'https://i.ibb.co/BrHRgcp/2.jpg',
@@ -167,7 +209,8 @@ export const partners = [{
                     'https://i.ibb.co/64L0kqF/10.jpg',
                     'https://i.ibb.co/c8B7cpr/11.jpg',
                     'https://i.ibb.co/w6Nnpz6/12.jpg',
-                    'https://i.ibb.co/JxnZ8yt/13.jpg'
+                    'https://i.ibb.co/JxnZ8yt/13.jpg',
+                    'https://i.ibb.co/Z6qrnj8/10.jpg'
                 ]
             },
             {
@@ -184,6 +227,34 @@ export const partners = [{
                     'https://i.ibb.co/vzWTSyF/9.jpg',
                     'https://i.ibb.co/NF1nSyp/10.jpg',
                     'https://i.ibb.co/mGtnyNc/slide-100.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу <span>"Залучення ресурсів для організацій громадянського суспільства"</span> м. Святогірськ 2019 рік. Тренерка Соломія Боршош.',
+                'img': [
+                    'https://i.ibb.co/mhvMrj1/1.jpg',
+                    'https://i.ibb.co/JKYPMFZ/3.jpg',
+                    'https://i.ibb.co/8Dy1Jv2/4.jpg',
+                    'https://i.ibb.co/WfdNB7b/5.jpg',
+                    'https://i.ibb.co/hKfCJMf/6.jpg',
+                    'https://i.ibb.co/0FNDgWS/7.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник спеціалізованого тренінгу з ЗОЖ <span>"Молодіжний працівник"</span> 2020 р. м. Харків',
+                'img': [
+                    'https://i.ibb.co/m6zbPn4/22.jpg',
+                    'https://i.ibb.co/nbTqw54/21.jpg',
+                    'https://i.ibb.co/XWgBT4M/20.jpg',
+                    'https://i.ibb.co/GPKkPp8/19.jpg',
+                    'https://i.ibb.co/gZ9w95t/17.jpg',
+                    'https://i.ibb.co/dtFBhyP/13.jpg',
+                    'https://i.ibb.co/4sWdVD8/1.jpg',
+                    'https://i.ibb.co/ns7qR1s/9.jpg',
+                    'https://i.ibb.co/j5HPDqr/10.jpg',
+                    'https://i.ibb.co/M7CLsKg/6.jpg',
+                    'https://i.ibb.co/jhPb95v/4.jpg',
+                    'https://i.ibb.co/PCJ5cXr/2.jpg'
                 ]
             },
             {
@@ -233,7 +304,13 @@ export const partners = [{
             },
             {
                 'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/GMpc7qZ/19.jpg',
+                    'https://i.ibb.co/541V38D/17.jpg',
+                    'https://i.ibb.co/XZmf41c/7.jpg',
+                    'https://i.ibb.co/gj5gCbh/2.jpg'
+
+                ]
             }
         ],
         'desc': '',
@@ -252,11 +329,31 @@ export const partners = [{
         'image': 'https://i.ibb.co/xghSF9M/slide-101.jpg',
         'slideImages': [{
                 'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з організаторів та учасників у 2021 році с. Максимільянівка',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/rdvrdVX/slide-54.jpg',
+                    'https://i.ibb.co/pZX1r4T/slide-79.jpg',
+                    'https://i.ibb.co/mCdrF93/slide-80.jpg',
+                    'https://i.ibb.co/bPCRD81/slide-82.jpg',
+                    'https://i.ibb.co/Q6hjymp/slide-84.jpg',
+                    'https://i.ibb.co/6sTn3q3/slide-87.jpg',
+                    'https://i.ibb.co/BVGYmbN/slide-88.jpg',
+                    'https://i.ibb.co/HqvzthW/slide-81.jpg'
+                ]
             },
             {
                 'text': 'Засновник дитячого туристично-спортивного табору <span>"Спадок"</span>',
-                'img': ''
+                'img': [
+
+                ]
+            },
+            {
+                'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/fGRLr4P/16.jpg',
+                    'https://i.ibb.co/S3gFgHt/14.jpg',
+                    'https://i.ibb.co/BcrFnqc/10.jpg'
+
+                ]
             }
         ],
         'desc': '',
@@ -297,13 +394,30 @@ export const partners = [{
         'img': 'https://i.ibb.co/Hx4bq68/gluschenko.jpg',
         'image': 'https://i.ibb.co/2KWjqq6/slide-1.jpg',
         'slideImages': [{
-            'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Один з організаторів та учасників у 2021 році с. Максимільянівка',
-            'img': ''
-        }],
+                'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/DLbd8Vh/6.jpg',
+                    'https://i.ibb.co/QYsnmL2/5.jpg'
+
+                ]
+            },
+            {
+                'text': 'Один з організаторів та учасників обласного <span>"Фестиваля згуртованості иолодіжних центрів"</span> у 2021 році с. Максимільянівка',
+                'img': [
+                    'https://i.ibb.co/2KWjqq6/slide-1.jpg',
+                    'https://i.ibb.co/YfFsSQ7/slide-8.jpg',
+                    'https://i.ibb.co/BnQT4Rc/slide-6.jpg',
+                    'https://i.ibb.co/r4mFWpV/slide-39.jpg',
+                    'https://i.ibb.co/PcDLSTC/slide-52.jpg',
+                    'https://i.ibb.co/3MMYyFh/slide-48.jpg'
+
+                ]
+            }
+        ],
         'desc': '',
         'loc': 'м. Красногорівка Мар"їнської ВЦА  Донецької області',
         'data': '2017 році',
-        'text': 'Один з засновників обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> та організаторів його у 2021 році.'
+        'text': 'Один з учасників обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> у 2021 році.'
     },
     {
         'title': 'Молодіжний центр',
@@ -334,7 +448,15 @@ export const partners = [{
         'image': 'https://i.ibb.co/BTKXD3V/slide-118.jpg',
         'slideImages': [{
                 'text': 'Обласний <span>"Фестиваль згуртованості молодіжних центрів"</span>. Одна з засновників, організаторів та учасників у 2019 та 2021 роках с. Максимільянівка',
-                'img': ''
+                'img': [
+                    'https://i.ibb.co/Hq15nz4/slide-27.jpg',
+                    'https://i.ibb.co/kJNj45v/slide-26.jpg',
+                    'https://i.ibb.co/HDQf9mY/slide-69.jpg',
+                    'https://i.ibb.co/1zzCxT6/slide-73.jpg',
+                    'https://i.ibb.co/DKYVbQ5/slide-28.jpg',
+                    'https://i.ibb.co/KxBNwZh/slide-60.jpg',
+                    'https://i.ibb.co/Wxy8XQS/slide-59.jpg'
+                ]
             },
             {
                 'text': '',
@@ -356,13 +478,16 @@ export const partners = [{
         'img': 'https://i.ibb.co/gTp13MM/grischenko.jpg',
         'image': 'https://i.ibb.co/LSPm3bx/slide-121.jpg',
         'slideImages': [{
-            'text': 'Засновниця ГО ',
-            'img': ''
+            'text': 'Фестиваль згуртованості молодіжних центрів"</span>. Одна з організаторів та учасникыв у 2021 році.',
+            'img': [
+                'https://i.ibb.co/7SFj4js/slide-74.jpg',
+                'https://i.ibb.co/2PnbkRW/slide-89.jpg'
+            ]
         }],
         'desc': '',
         'loc': 'с. Єлізаветівка Мар"їнської ВЦА  Донецької області',
         'data': '2019 році',
-        'text': 'Один з засновників обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> та організаторів його у 2021 році.'
+        'text': '<span>"Фестиваль згуртованості молодіжних центрів"</span>. Одна з організаторів та учасникыв у 2021 році.'
     },
     {
         'title': 'Молодіжний центр',
@@ -374,8 +499,17 @@ export const partners = [{
         'img': 'https://i.ibb.co/K0smCWP/grishko.jpg',
         'image': 'https://i.ibb.co/LSPm3bx/slide-121.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
+            'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
+            'img': [
+                'https://i.ibb.co/YWkQfLx/1.jpg',
+                'https://i.ibb.co/NZf7FcX/8.jpg',
+                'https://i.ibb.co/QfJ3NZw/13.jpg',
+                'https://i.ibb.co/VNWgvk2/18.jpg',
+                'https://i.ibb.co/DLbd8Vh/6.jpg',
+                'https://i.ibb.co/7G6c3Mg/4.jpg',
+                'https://i.ibb.co/hKTkZgg/15.jpg'
+
+            ]
         }],
         'desc': '',
         'loc': 'с. Єлізаветівка Мар"їнської ВЦА  Донецької області',
@@ -392,13 +526,18 @@ export const partners = [{
         'img': 'https://i.ibb.co/DwcSNXQ/kolchik.jpg',
         'image': 'https://i.ibb.co/cN4zk0G/slide-20.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
+            'text': '<span>"Фестиваль згуртованості молодіжних центрів"</span> у 2021 році.',
+            'img': [
+                'https://i.ibb.co/cN4zk0G/slide-20.jpg',
+                'https://i.ibb.co/QKsqKTZ/slide-19.jpg',
+                'https://i.ibb.co/yWJQx5g/slide-15.jpg',
+                'https://i.ibb.co/LZ4HWKY/slide-29.jpg'
+            ]
         }],
         'desc': '',
         'loc': 'с. Костянтинівка Мар"їнської ВЦА  Донецької області',
         'data': '2019 році',
-        'text': 'Один з засновників обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> та організаторів його у 2021 році.'
+        'text': 'Один з організаторів та учасників обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> у 2021 році.'
     },
     {
         'title': 'Молодіжний центр',
@@ -428,8 +567,16 @@ export const partners = [{
         'img': 'https://i.ibb.co/z2ZvmsY/vasilenko.jpg',
         'image': 'https://i.ibb.co/n0sdYQ6/slide-4.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
+            'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
+            'img': [
+                'https://i.ibb.co/mFbx62t/3.jpg',
+                'https://i.ibb.co/GxsD41D/11.jpg',
+                'https://i.ibb.co/NjKrSKx/12.jpg',
+                'https://i.ibb.co/wSfNhVF/9.jpg',
+                'https://i.ibb.co/YWkQfLx/1.jpg',
+                'https://i.ibb.co/BcrFnqc/10.jpg'
+
+            ]
         }],
         'desc': '',
         'loc': 'с. Катеринівка Мар"їнської ВЦА  Донецької області',
@@ -461,8 +608,8 @@ export const partners = [{
         'function': 'директор',
         'dataName': 'avdiyants',
         'share': true,
-        'img': 'https://i.ibb.co/Fbx4fGk/sorokima.jpg',
-        'image': 'https://i.ibb.co/2k7GCZc/slide-35.jpg',
+        'img': 'https://i.ibb.co/L9GLK4X/avdiyants.jpg',
+        'image': 'https://i.ibb.co/JzGywYW/slide-92.jpg',
         'slideImages': [{
             'text': '',
             'img': ''

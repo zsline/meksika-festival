@@ -159,15 +159,7 @@ function sliderModal(item, name) {
     }
     return items.join('');
 }
-
-
-
-
 //==============================================
-
-//==============================================
-
-
 // слайдер фотографий мероприятия
 function createSliderIvent(images) {
     let htmlImg = '';
@@ -178,13 +170,6 @@ function createSliderIvent(images) {
     }
     return htmlImg
 }
-
-
-
-
-
-
-
 if (sliderPartners) {
     createPartnersSlide(partners)
 }
@@ -284,6 +269,7 @@ if (sliders) {
 }
 const slidersModal = document.querySelectorAll('.swiper-modal')
 if (slidersModal) {
+
     for (let i = 0; i < slidersModal.length; i++) {
         let data = slidersModal[i].dataset['slider'];
         new Swiper(`.${data}`, {
@@ -294,11 +280,7 @@ if (slidersModal) {
             },
             slidesPerView: 1,
             spaceBetween: 50,
-            loop: true,
-            freeMode: true,
-            grabCursor: true,
-            // observer: true,
-            // observeParents: true
+            freeMode: true
         })
     }
 }
