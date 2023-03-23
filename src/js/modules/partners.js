@@ -91,6 +91,66 @@ export const partners = [{
                 ]
             },
             {
+                'text': 'Учасник обласного семінару <span>"Молодіжні хаби - ключ до розвитку громад"</span> у 2019 році м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/c6mBxp8/slide-3.jpg',
+                    'https://i.ibb.co/swT3xbm/slide-1.jpg',
+                    'https://i.ibb.co/26Cm6h8/slide-5.jpg',
+                    'https://i.ibb.co/bX6JyYS/slide-6.jpg',
+                    'https://i.ibb.co/LPJ1MKx/slide-7.jpg',
+                    'https://i.ibb.co/9bzbbry/slide-8.jpg',
+                    'https://i.ibb.co/6PgW8Yx/slide-9.jpg',
+                    'https://i.ibb.co/YTx6HyD/slide-10.jpg',
+                    'https://i.ibb.co/cQXwk0C/slide-11.jpg',
+                    'https://i.ibb.co/gPxNxZr/slide-12.jpg',
+                    'https://i.ibb.co/0hMypJL/slide-13.jpg',
+                    'https://i.ibb.co/WHGn9Dx/slide-14.jpg',
+                    'https://i.ibb.co/hRkKdn3/slide-15.jpg',
+                    'https://i.ibb.co/4Z3g9rQ/slide-16.jpg',
+                    'https://i.ibb.co/3YY0YVV/slide-17.jpg',
+                    'https://i.ibb.co/mqjdbmr/slide-19.jpg',
+                    'https://i.ibb.co/wKQ5GpB/slide-20.jpg',
+                    'https://i.ibb.co/5sW56Bs/slide-21.jpg',
+                    'https://i.ibb.co/z8tZ2Mj/slide-22.jpg',
+                    'https://i.ibb.co/XYyM270/slide-24.jpg',
+                    'https://i.ibb.co/JFsByhv/slide-25.jpg',
+                    'https://i.ibb.co/850Httb/slide-26.jpg',
+                    'https://i.ibb.co/gdJkkmw/slide-27.jpg',
+                    'https://i.ibb.co/6bTk7Cj/slide-28.jpg',
+                    'https://i.ibb.co/R2Krh0q/slide-29.jpg',
+                    'https://i.ibb.co/18SQ8Tb/slide-30.jpg',
+                    'https://i.ibb.co/3NMG7SG/slide-31.jpg',
+                    'https://i.ibb.co/HGF0xkk/slide-32.jpg',
+                    'https://i.ibb.co/0C2SjCC/slide-33.jpg',
+                    'https://i.ibb.co/720fDnQ/slide-34.jpg',
+                    'https://i.ibb.co/B3BBXvt/slide-36.jpg',
+                    'https://i.ibb.co/Q8spPm7/slide-37.jpg',
+                    'https://i.ibb.co/Fn5NnsS/slide-38.jpg',
+                    'https://i.ibb.co/Hth88WX/slide-39.jpg',
+                    'https://i.ibb.co/nzPyZfK/slide-40.jpg',
+                    'https://i.ibb.co/NCDjT7Z/slide-41.jpg',
+                    'https://i.ibb.co/BLRrmv6/slide-42.jpg',
+                    'https://i.ibb.co/55Nzq1B/slide-43.jpg',
+                    'https://i.ibb.co/3SxtL1Y/slide-44.jpg',
+                    'https://i.ibb.co/d0YWBfr/slide-45.jpg',
+                    'https://i.ibb.co/YhTywV4/slide-47.jpg',
+                    'https://i.ibb.co/sK1r5TX/slide-48.jpg',
+                    'https://i.ibb.co/H4dgqGj/slide-51.jpg',
+                    'https://i.ibb.co/51BXHYv/slide-50.jpg',
+                    'https://i.ibb.co/6gtSmnK/slide-52.jpg',
+                    'https://i.ibb.co/mDCysYf/slide-53.jpg',
+                    'https://i.ibb.co/NtPB0bC/slide-54.jpg',
+                    'https://i.ibb.co/wWvkFtn/slide-55.jpg',
+                    'https://i.ibb.co/gywnGmw/slide-57.jpg',
+                    'https://i.ibb.co/1XYmGJr/slide-58.jpg',
+                    'https://i.ibb.co/y8FP47d/slide-59.jpg',
+                    'https://i.ibb.co/M2mHm1T/slide-60.jpg',
+                    'https://i.ibb.co/xqMFwkQ/slide-61.jpg',
+                    'https://i.ibb.co/LnNs1zL/slide-62.jpg',
+                    'https://i.ibb.co/SN71fCQ/slide-63.jpg'
+                ]
+            },
+            {
                 'text': 'Учасник спеціалізованого тренінгу з ЗОЖ <span>"Молодіжний працівник"</span> 2020 р. м. Харків',
                 'img': [
                     'https://i.ibb.co/x3q1H29/7.jpg',
@@ -182,8 +242,66 @@ export const partners = [{
             {
                 'text': 'Засновник щорічних військово-патріотичних ігор та спортивних змаганнь <span>"Завжди разом"</span> за підтримки цивільно-військового співробітництва с. Максимільянівка з 2019 року',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/p11SchS/slide-1.jpg',
+                    'https://i.ibb.co/6bq5N2H/slide-2.jpg',
+                    'https://i.ibb.co/1ZDdYFC/slide-3.jpg',
+                    'https://i.ibb.co/s6dymcD/slide-4.jpg',
+                    'https://i.ibb.co/bmv1s9h/slide-5.jpg',
+                    'https://i.ibb.co/X8Bwrfq/slide-6.jpg',
+                    'https://i.ibb.co/yQYpSr1/slide-7.jpg',
+                    'https://i.ibb.co/qBxkW7c/slide-8.jpg',
+                    'https://i.ibb.co/p1YCQgj/slide-9.jpg',
+                    'https://i.ibb.co/Z6hvTcD/slide-10.jpg',
+                    'https://i.ibb.co/fvGq4YG/slide-11.jpg',
+                    'https://i.ibb.co/q0JdR2k/slide-12.jpg',
+                    'https://i.ibb.co/YDcgvNw/slide-13.jpg',
+                    'https://i.ibb.co/3Bb1P2Q/slide-14.jpg',
+                    'https://i.ibb.co/K9f089r/slide-15.jpg',
+                    'https://i.ibb.co/2vHXpjM/slide-16.jpg',
+                    'https://i.ibb.co/wr2HhgT/slide-17.jpg',
+                    'https://i.ibb.co/yR1JPZ7/slide-18.jpg',
+                    'https://i.ibb.co/3s1CS0F/slide-19.jpg',
+                    'https://i.ibb.co/23S8YHr/slide-20.jpg',
+                    'https://i.ibb.co/LtZkSRR/slide-21.jpg',
+                    'https://i.ibb.co/869LmDb/slide-22.jpg',
+                    'https://i.ibb.co/rFKBV8H/slide-23.jpg',
+                    'https://i.ibb.co/tZWbGZ5/slide-24.jpg',
+                    'https://i.ibb.co/DYdmG42/slide-25.jpg',
+                    'https://i.ibb.co/Y8wYKkN/slide-26.jpg',
+                    'https://i.ibb.co/1m0fjpv/slide-27.jpg',
+                    'https://i.ibb.co/H7KpGwx/slide-28.jpg',
+                    'https://i.ibb.co/q5Yb7Fg/slide-29.jpg',
+                    'https://i.ibb.co/2FtKVLP/slide-30.jpg',
+                    'https://i.ibb.co/LNk5X5M/slide-31.jpg',
+                    'https://i.ibb.co/vjsJv2X/slide-32.jpg',
+                    'https://i.ibb.co/LtZKG4L/slide-33.jpg',
+                    'https://i.ibb.co/DMgLgyW/slide-34.jpg',
+                    'https://i.ibb.co/7jYPKyc/slide-35.jpg',
+                    'https://i.ibb.co/ZccVXPS/slide-36.jpg',
+                    'https://i.ibb.co/yX48VJm/slide-37.jpg',
+                    'https://i.ibb.co/f877dNJ/slide-38.jpg',
+                    'https://i.ibb.co/dDgy2mZ/slide-39.jpg',
+                    'https://i.ibb.co/RP1fvhJ/slide-40.jpg',
+                    'https://i.ibb.co/jMyBRP5/slide-41.jpg',
+                    'https://i.ibb.co/17KJJp9/slide-42.jpg',
+                    'https://i.ibb.co/YRCL3rN/slide-43.jpg',
+                    'https://i.ibb.co/zNFPMD9/slide-44.jpg',
+                    'https://i.ibb.co/k3dJnp2/slide-45.jpg',
+                    'https://i.ibb.co/j8gMfL8/slide-47.jpg',
+                    'https://i.ibb.co/kQ6Lk1d/slide-48.jpg',
+                    'https://i.ibb.co/X4fnvvJ/slide-49.jpg'
+                ]
+            },
+            {
+                'text': 'Засновник щомісячних прямих ефірів на Youtube каналі',
+                'img': [
+                    'https://i.ibb.co/sbDgw5q/slide-1.jpg',
+                    'https://i.ibb.co/B6psxm7/slide-2.jpg',
+                    'https://i.ibb.co/0rvj3pr/slide-3.jpg',
+                    'https://i.ibb.co/sqYVSs9/slide-4.jpg',
+                    'https://i.ibb.co/Jqkbn3d/slide-5.jpg',
+                    'https://i.ibb.co/mGLKzXs/slide-6.jpg',
+                    'https://i.ibb.co/sHGzqMb/slide-7.jpg'
                 ]
             }
         ],
@@ -234,6 +352,32 @@ export const partners = [{
                     'https://i.ibb.co/vzWTSyF/9.jpg',
                     'https://i.ibb.co/NF1nSyp/10.jpg',
                     'https://i.ibb.co/mGtnyNc/slide-100.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник обласного семінару <span>"Молодіжні хаби - ключ до розвитку громад"</span> у 2019 році м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/HgKCN76/slide-2.jpg',
+                    'https://i.ibb.co/gdJkkmw/slide-27.jpg',
+                    'https://i.ibb.co/850Httb/slide-26.jpg',
+                    'https://i.ibb.co/jGzSR9P/slide-23.jpg',
+                    'https://i.ibb.co/5sW56Bs/slide-21.jpg',
+                    'https://i.ibb.co/mqjdbmr/slide-19.jpg',
+                    'https://i.ibb.co/gPxNxZr/slide-12.jpg',
+                    'https://i.ibb.co/cQXwk0C/slide-11.jpg',
+                    'https://i.ibb.co/bX6JyYS/slide-6.jpg',
+                    'https://i.ibb.co/c6mBxp8/slide-3.jpg',
+                    'https://i.ibb.co/LnNs1zL/slide-62.jpg',
+                    'https://i.ibb.co/M2mHm1T/slide-60.jpg',
+                    'https://i.ibb.co/y8FP47d/slide-59.jpg',
+                    'https://i.ibb.co/gywnGmw/slide-57.jpg',
+                    'https://i.ibb.co/6gtSmnK/slide-52.jpg',
+                    'https://i.ibb.co/51BXHYv/slide-50.jpg',
+                    'https://i.ibb.co/H4dgqGj/slide-51.jpg',
+                    'https://i.ibb.co/zZf02wx/slide-49.jpg',
+                    'https://i.ibb.co/Bqkd3tC/slide-46.jpg',
+                    'https://i.ibb.co/3SxtL1Y/slide-44.jpg',
+                    'https://i.ibb.co/Pjf3D8Y/slide-35.jpg'
                 ]
             },
             {
@@ -482,9 +626,30 @@ export const partners = [{
                 ]
             },
             {
-                'text': '',
-                'img': ''
-            }
+                'text': 'Учасник обласного семінару <span>"Молодіжні хаби - ключ до розвитку громад"</span> у 2019 році м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/3NMG7SG/slide-31.jpg',
+                    'https://i.ibb.co/gdJkkmw/slide-27.jpg',
+                    'https://i.ibb.co/JFsByhv/slide-25.jpg',
+                    'https://i.ibb.co/hRkKdn3/slide-15.jpg',
+                    'https://i.ibb.co/s25BF3D/slide-18.jpg',
+                    'https://i.ibb.co/0hMypJL/slide-13.jpg',
+                    'https://i.ibb.co/WHGn9Dx/slide-14.jpg',
+                    'https://i.ibb.co/6PgW8Yx/slide-9.jpg',
+                    'https://i.ibb.co/9bzbbry/slide-8.jpg',
+                    'https://i.ibb.co/26Cm6h8/slide-5.jpg',
+                    'https://i.ibb.co/YTx6HyD/slide-10.jpg',
+                    'https://i.ibb.co/FnNP6Lz/slide-4.jpg',
+                    'https://i.ibb.co/HgKCN76/slide-2.jpg',
+                    'https://i.ibb.co/720fDnQ/slide-34.jpg',
+                    'https://i.ibb.co/YhTywV4/slide-47.jpg',
+                    'https://i.ibb.co/mDCysYf/slide-53.jpg',
+                    'https://i.ibb.co/NtPB0bC/slide-54.jpg',
+                    'https://i.ibb.co/wsXXwqj/slide-56.jpg',
+                    'https://i.ibb.co/xqMFwkQ/slide-61.jpg',
+                    'https://i.ibb.co/SN71fCQ/slide-63.jpg'
+                ]
+            },
         ],
         'desc': '',
         'loc': 'с. Новомихайлівка Мар"їнської ВЦА  Донецької області',
@@ -501,12 +666,22 @@ export const partners = [{
         'img': 'https://i.ibb.co/gTp13MM/grischenko.jpg',
         'image': 'https://i.ibb.co/LSPm3bx/slide-121.jpg',
         'slideImages': [{
-            'text': 'Фестиваль згуртованості молодіжних центрів"</span>. Одна з організаторів та учасникыв у 2021 році.',
-            'img': [
-                'https://i.ibb.co/7SFj4js/slide-74.jpg',
-                'https://i.ibb.co/2PnbkRW/slide-89.jpg'
-            ]
-        }],
+                'text': 'Фестиваль згуртованості молодіжних центрів"</span>. Одна з організаторів та учасникыв у 2021 році.',
+                'img': [
+                    'https://i.ibb.co/7SFj4js/slide-74.jpg',
+                    'https://i.ibb.co/2PnbkRW/slide-89.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник <span>прямого ефіру</span> в молодіжному центрі <span>"Мексика"</span> 2021 року',
+                'img': [
+                    'https://i.ibb.co/Jqkbn3d/slide-5.jpg',
+                    'https://i.ibb.co/mGLKzXs/slide-6.jpg',
+                    'https://i.ibb.co/sHGzqMb/slide-7.jpg'
+                ]
+            }
+
+        ],
         'desc': '',
         'loc': 'с. Єлізаветівка Мар"їнської ВЦА  Донецької області',
         'data': '2019 році',
@@ -572,8 +747,44 @@ export const partners = [{
         'img': 'https://i.ibb.co/mvNgFtb/marina.jpg',
         'image': 'https://i.ibb.co/n0sdYQ6/slide-4.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
+            'text': 'Учасник щорічних військово-патріотичних ігор та спортивних змаганнь <span>"Завжди разом"</span> за підтримки цивільно-військового співробітництва с. Максимільянівка у 2019 року',
+            'img': [
+                'https://i.ibb.co/1ZDdYFC/slide-3.jpg',
+                'https://i.ibb.co/s6dymcD/slide-4.jpg',
+                'https://i.ibb.co/bmv1s9h/slide-5.jpg',
+                'https://i.ibb.co/yQYpSr1/slide-7.jpg',
+                'https://i.ibb.co/qBxkW7c/slide-8.jpg',
+                'https://i.ibb.co/p1YCQgj/slide-9.jpg',
+                'https://i.ibb.co/Z6hvTcD/slide-10.jpg',
+                'https://i.ibb.co/fvGq4YG/slide-11.jpg',
+                'https://i.ibb.co/q0JdR2k/slide-12.jpg',
+                'https://i.ibb.co/YDcgvNw/slide-13.jpg',
+                'https://i.ibb.co/3Bb1P2Q/slide-14.jpg',
+                'https://i.ibb.co/K9f089r/slide-15.jpg',
+                'https://i.ibb.co/3s1CS0F/slide-19.jpg',
+                'https://i.ibb.co/23S8YHr/slide-20.jpg',
+                'https://i.ibb.co/LtZkSRR/slide-21.jpg',
+                'https://i.ibb.co/Y8wYKkN/slide-26.jpg',
+                'https://i.ibb.co/1m0fjpv/slide-27.jpg',
+                'https://i.ibb.co/H7KpGwx/slide-28.jpg',
+                'https://i.ibb.co/q5Yb7Fg/slide-29.jpg',
+                'https://i.ibb.co/2FtKVLP/slide-30.jpg',
+                'https://i.ibb.co/LNk5X5M/slide-31.jpg',
+                'https://i.ibb.co/vjsJv2X/slide-32.jpg',
+                'https://i.ibb.co/LtZKG4L/slide-33.jpg',
+                'https://i.ibb.co/DMgLgyW/slide-34.jpg',
+                'https://i.ibb.co/7jYPKyc/slide-35.jpg',
+                'https://i.ibb.co/ZccVXPS/slide-36.jpg',
+                'https://i.ibb.co/yX48VJm/slide-37.jpg',
+                'https://i.ibb.co/f877dNJ/slide-38.jpg',
+                'https://i.ibb.co/dDgy2mZ/slide-39.jpg',
+                'https://i.ibb.co/RP1fvhJ/slide-40.jpg',
+                'https://i.ibb.co/jMyBRP5/slide-41.jpg',
+                'https://i.ibb.co/17KJJp9/slide-42.jpg',
+                'https://i.ibb.co/zNFPMD9/slide-44.jpg',
+                'https://i.ibb.co/k3dJnp2/slide-45.jpg',
+                'https://i.ibb.co/kQ6Lk1d/slide-48.jpg'
+            ]
         }],
         'desc': '',
         'loc': 'с. Катеринівка Мар"їнської ВЦА  Донецької області',
@@ -634,9 +845,24 @@ export const partners = [{
         'img': 'https://i.ibb.co/L9GLK4X/avdiyants.jpg',
         'image': 'https://i.ibb.co/JzGywYW/slide-92.jpg',
         'slideImages': [{
-            'text': '',
-            'img': ''
-        }],
+                'text': 'Організатор тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
+                'img': [
+
+                ]
+            },
+            {
+                'text': 'Організатор свята до <span>"Дня вишиванки"</span> м. Слав"янськ у 2021 році</.span>',
+                'img': [
+
+                ]
+            },
+            {
+                'text': 'Спікер обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> у 2021 році',
+                'img': [
+
+                ]
+            }
+        ],
         'desc': '',
         'loc': 'м. Слав"янськ Донецької області',
         'data': '2009 році',
