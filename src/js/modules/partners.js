@@ -271,7 +271,6 @@ export const partners = [{
                     'https://i.ibb.co/YP5kkN6/slide-128.jpg',
                     'https://i.ibb.co/VjftjcJ/slide-125.jpg',
                     'https://i.ibb.co/SNYNrCF/slide-122.jpg',
-                    'https://i.ibb.co/SNYNrCF/slide-122.jpg',
                     'https://i.ibb.co/DMmJ6JT/slide-116.jpg',
                     'https://i.ibb.co/QPpsLJ2/slide-111.jpg',
                     'https://i.ibb.co/GpBns7M/slide-110.jpg',
