@@ -240,6 +240,75 @@ export const partners = [{
                 ]
             },
             {
+                'text': 'Учасник та фіналіст тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
+                'img': [
+                    'https://i.ibb.co/9bKn8Mk/slide-169.jpg',
+                    'https://i.ibb.co/gPggpps/slide-161.jpg',
+                    'https://i.ibb.co/9HRVFx9/slide-178.jpg',
+                    'https://i.ibb.co/D7yfq0P/slide-175.jpg',
+                    'https://i.ibb.co/7p7ztdR/slide-174.jpg',
+                    'https://i.ibb.co/CBybT7x/slide-173.jpg',
+                    'https://i.ibb.co/fY3C10m/slide-171.jpg',
+                    'https://i.ibb.co/V3jgTvn/slide-170.jpg',
+                    'https://i.ibb.co/ph466yT/slide-168.jpg',
+                    'https://i.ibb.co/r4D0BzT/slide-167.jpg',
+                    'https://i.ibb.co/GJ2F5D6/slide-166.jpg',
+                    'https://i.ibb.co/r4c8z2g/slide-164.jpg',
+                    'https://i.ibb.co/JF0tzTz/slide-163.jpg',
+                    'https://i.ibb.co/Lk0cGRk/slide-162.jpg',
+                    'https://i.ibb.co/Z8xQ62N/slide-160.jpg',
+                    'https://i.ibb.co/kJLJtnN/slide-159.jpg',
+                    'https://i.ibb.co/SPVdLtH/slide-158.jpg',
+                    'https://i.ibb.co/DVXQKVn/slide-157.jpg',
+                    'https://i.ibb.co/yYzFw1m/slide-156.jpg',
+                    'https://i.ibb.co/xMnqgH4/slide-155.jpg',
+                    'https://i.ibb.co/HhVtPN1/slide-152.jpg',
+                    'https://i.ibb.co/BVmLjYh/slide-150.jpg',
+                    'https://i.ibb.co/Hz2pMV7/slide-144.jpg',
+                    'https://i.ibb.co/rvPKZ8J/slide-141.jpg',
+                    'https://i.ibb.co/pZXS8z7/slide-137.jpg',
+                    'https://i.ibb.co/5nWGPVP/slide-129.jpg',
+                    'https://i.ibb.co/YP5kkN6/slide-128.jpg',
+                    'https://i.ibb.co/VjftjcJ/slide-125.jpg',
+                    'https://i.ibb.co/SNYNrCF/slide-122.jpg',
+                    'https://i.ibb.co/SNYNrCF/slide-122.jpg',
+                    'https://i.ibb.co/DMmJ6JT/slide-116.jpg',
+                    'https://i.ibb.co/QPpsLJ2/slide-111.jpg',
+                    'https://i.ibb.co/GpBns7M/slide-110.jpg',
+                    'https://i.ibb.co/zf1MXS8/slide-109.jpg',
+                    'https://i.ibb.co/ZB2YKGm/slide-108.jpg',
+                    'https://i.ibb.co/0qmq52V/slide-107.jpg',
+                    'https://i.ibb.co/4TbRsWf/slide-104.jpg',
+                    'https://i.ibb.co/mHmjsb1/slide-102.jpg',
+                    'https://i.ibb.co/jfNYTMn/slide-101.jpg',
+                    'https://i.ibb.co/cQYgHtn/slide-96.jpg',
+                    'https://i.ibb.co/pwW43Cs/slide-95.jpg',
+                    'https://i.ibb.co/TcqcqXJ/slide-92.jpg',
+                    'https://i.ibb.co/CsPhXTn/slide-91.jpg',
+                    'https://i.ibb.co/JsfzCc5/slide-88.jpg',
+                    'https://i.ibb.co/8Y7Jwgh/slide-87.jpg',
+                    'https://i.ibb.co/Z2sbLWD/slide-80.jpg',
+                    'https://i.ibb.co/DRWBJgz/slide-73.jpg',
+                    'https://i.ibb.co/2dd0m7R/slide-65.jpg',
+                    'https://i.ibb.co/b7DqzHB/slide-62.jpg',
+                    'https://i.ibb.co/BrQmY1g/slide-60.jpg',
+                    'https://i.ibb.co/4WVsxDW/slide-52.jpg',
+                    'https://i.ibb.co/wR0w8Kv/slide-46.jpg',
+                    'https://i.ibb.co/PTd9jts/slide-44.jpg',
+                    'https://i.ibb.co/KDMwnnd/slide-40.jpg',
+                    'https://i.ibb.co/bWZRBTx/slide-39.jpg',
+                    'https://i.ibb.co/mzQRQ73/slide-37.jpg',
+                    'https://i.ibb.co/rpzhPBS/slide-16.jpg',
+                    'https://i.ibb.co/cySvb2d/slide-2.jpg',
+                    'https://i.ibb.co/wpJb2Bq/slide-8.jpg',
+                    'https://i.ibb.co/SrxSbrJ/slide-7.jpg',
+                    'https://i.ibb.co/dr8q3Sr/slide-6.jpg',
+                    'https://i.ibb.co/7VRR37m/slide-5.jpg',
+                    'https://i.ibb.co/2qYnrCD/slide-4.jpg',
+                    'https://i.ibb.co/SvLs3fT/slide-3.jpg'
+                ]
+            },
+            {
                 'text': 'Засновник щорічних військово-патріотичних ігор та спортивних змаганнь <span>"Завжди разом"</span> за підтримки цивільно-військового співробітництва с. Максимільянівка з 2019 року',
                 'img': [
                     'https://i.ibb.co/p11SchS/slide-1.jpg',
@@ -425,6 +494,29 @@ export const partners = [{
                 ]
             },
             {
+                'text': 'Учасник та фіналіст тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
+                'img': [
+                    'https://i.ibb.co/ySrKBj4/slide-11.jpg',
+                    'https://i.ibb.co/zStfmSp/slide-9.jpg',
+                    'https://i.ibb.co/q7gjbWh/slide-10.jpg',
+                    'https://i.ibb.co/SVd9cJf/slide-17.jpg',
+                    'https://i.ibb.co/z7DyJcM/slide-19.jpg',
+                    'https://i.ibb.co/3Sfb2pL/slide-32.jpg',
+                    'https://i.ibb.co/TMLdDd8/slide-77.jpg',
+                    'https://i.ibb.co/gz1bHTp/slide-86.jpg',
+                    'https://i.ibb.co/dbr0W9G/slide-99.jpg',
+                    'https://i.ibb.co/zf1MXS8/slide-109.jpg',
+                    'https://i.ibb.co/gJydR0y/slide-123.jpg',
+                    'https://i.ibb.co/n3403CB/slide-127.jpg',
+                    'https://i.ibb.co/vH7hWJw/slide-130.jpg',
+                    'https://i.ibb.co/QYjxsjg/slide-133.jpg',
+                    'https://i.ibb.co/qDkQ2d2/slide-134.jpg',
+                    'https://i.ibb.co/59P8j4t/slide-135.jpg',
+                    'https://i.ibb.co/wM86rz4/slide-136.jpg',
+                    'https://i.ibb.co/fGsCzvX/slide-142.jpg'
+                ]
+            },
+            {
                 'text': 'Учасник обласного фестиваля <span>"Дике поле"</span> у 2021 році',
                 'img': [
                     'https://i.ibb.co/mBdNwJP/1.jpg',
@@ -561,14 +653,6 @@ export const partners = [{
         'img': 'https://i.ibb.co/Hx4bq68/gluschenko.jpg',
         'image': 'https://i.ibb.co/2KWjqq6/slide-1.jpg',
         'slideImages': [{
-                'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
-                'img': [
-                    'https://i.ibb.co/DLbd8Vh/6.jpg',
-                    'https://i.ibb.co/QYsnmL2/5.jpg'
-
-                ]
-            },
-            {
                 'text': 'Один з організаторів та учасників обласного <span>"Фестиваля згуртованості иолодіжних центрів"</span> у 2021 році с. Максимільянівка',
                 'img': [
                     'https://i.ibb.co/2KWjqq6/slide-1.jpg',
@@ -579,7 +663,34 @@ export const partners = [{
                     'https://i.ibb.co/3MMYyFh/slide-48.jpg'
 
                 ]
+            },
+            {
+                'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/DLbd8Vh/6.jpg',
+                    'https://i.ibb.co/QYsnmL2/5.jpg'
+
+                ]
+            },
+            {
+                'text': 'Учасник та фіналіст тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
+                'img': [
+                    'https://i.ibb.co/HBJXbzr/slide-132.jpg',
+                    'https://i.ibb.co/cvjTn51/slide-145.jpg',
+                    'https://i.ibb.co/TtWXRGq/slide-146.jpg',
+                    'https://i.ibb.co/983KnfW/slide-139.jpg',
+                    'https://i.ibb.co/Mf0gZB8/slide-72.jpg',
+                    'https://i.ibb.co/Vxm6FPZ/slide-59.jpg',
+                    'https://i.ibb.co/wd5FdZb/slide-50.jpg',
+                    'https://i.ibb.co/wS83yRk/slide-47.jpg',
+                    'https://i.ibb.co/HLSFMM1/slide-45.jpg',
+                    'https://i.ibb.co/9NBtDnt/slide-43.jpg',
+                    'https://i.ibb.co/n3LVFJw/slide-28.jpg',
+                    'https://i.ibb.co/sRQ7Bjj/slide-21.jpg',
+                    'https://i.ibb.co/FBrBZcM/slide-20.jpg'
+                ]
             }
+
         ],
         'desc': '',
         'loc': 'м. Красногорівка Мар"їнської ВЦА  Донецької області',
@@ -679,6 +790,26 @@ export const partners = [{
                     'https://i.ibb.co/mGLKzXs/slide-6.jpg',
                     'https://i.ibb.co/sHGzqMb/slide-7.jpg'
                 ]
+            },
+            {
+                'text': 'Учасник та фіналіст тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
+                'img': [
+                    'https://i.ibb.co/GkmpnYQ/slide-15.jpg',
+                    'https://i.ibb.co/0hByTfJ/slide-22.jpg',
+                    'https://i.ibb.co/cr6khXJ/slide-25.jpg',
+                    'https://i.ibb.co/Rpjx0yY/slide-26.jpg',
+                    'https://i.ibb.co/pwg461D/slide-31.jpg',
+                    'https://i.ibb.co/gFNzHVM/slide-51.jpg',
+                    'https://i.ibb.co/kyZ8hWG/slide-54.jpg',
+                    'https://i.ibb.co/1ZDsV64/slide-67.jpg',
+                    'https://i.ibb.co/BzWWg3t/slide-71.jpg',
+                    'https://i.ibb.co/JsfzCc5/slide-88.jpg',
+                    'https://i.ibb.co/sQKJNzk/slide-106.jpg',
+                    'https://i.ibb.co/zf1MXS8/slide-109.jpg',
+                    'https://i.ibb.co/mFDTDCn/slide-143.jpg',
+                    'https://i.ibb.co/FgSd0gk/slide-148.jpg',
+                    'https://i.ibb.co/WB4zkFB/slide-149.jpg'
+                ]
             }
 
         ],
@@ -724,14 +855,33 @@ export const partners = [{
         'img': 'https://i.ibb.co/DwcSNXQ/kolchik.jpg',
         'image': 'https://i.ibb.co/cN4zk0G/slide-20.jpg',
         'slideImages': [{
-            'text': '<span>"Фестиваль згуртованості молодіжних центрів"</span> у 2021 році.',
-            'img': [
-                'https://i.ibb.co/cN4zk0G/slide-20.jpg',
-                'https://i.ibb.co/QKsqKTZ/slide-19.jpg',
-                'https://i.ibb.co/yWJQx5g/slide-15.jpg',
-                'https://i.ibb.co/LZ4HWKY/slide-29.jpg'
-            ]
-        }],
+                'text': '<span>"Фестиваль згуртованості молодіжних центрів"</span> у 2021 році.',
+                'img': [
+                    'https://i.ibb.co/cN4zk0G/slide-20.jpg',
+                    'https://i.ibb.co/QKsqKTZ/slide-19.jpg',
+                    'https://i.ibb.co/yWJQx5g/slide-15.jpg',
+                    'https://i.ibb.co/LZ4HWKY/slide-29.jpg'
+                ]
+            },
+            {
+                'text': 'Учасник  тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
+                'img': [
+                    'https://i.ibb.co/3dm4q5C/slide-55.jpg',
+                    'https://i.ibb.co/CmCCKs6/slide-70.jpg',
+                    'https://i.ibb.co/QkZc2f6/slide-69.jpg',
+                    'https://i.ibb.co/q1g2hBz/slide-68.jpg',
+                    'https://i.ibb.co/Xz7kHX2/slide-56.jpg',
+                    'https://i.ibb.co/KjsDkbb/slide-42.jpg',
+                    'https://i.ibb.co/QMrRfxq/slide-38.jpg',
+                    'https://i.ibb.co/VNy5dT0/slide-36.jpg',
+                    'https://i.ibb.co/Rpjx0yY/slide-26.jpg',
+                    'https://i.ibb.co/WB4zkFB/slide-149.jpg',
+                    'https://i.ibb.co/yh9s0mN/slide-113.jpg',
+                    'https://i.ibb.co/mtkBFTf/slide-112.jpg'
+
+                ]
+            }
+        ],
         'desc': '',
         'loc': 'с. Костянтинівка Мар"їнської ВЦА  Донецької області',
         'data': '2019 році',
@@ -847,7 +997,26 @@ export const partners = [{
         'slideImages': [{
                 'text': 'Організатор тренінгу молодіжних працівників та їх команд <span>"Мережа змін"</span>',
                 'img': [
-
+                    'https://i.ibb.co/pjPsbfX/slide-75.jpg',
+                    'https://i.ibb.co/L15x85Q/slide-103.jpg',
+                    'https://i.ibb.co/0qmq52V/slide-107.jpg',
+                    'https://i.ibb.co/xMnqgH4/slide-155.jpg',
+                    'https://i.ibb.co/HFdwJ5T/slide-179.jpg',
+                    'https://i.ibb.co/9HRVFx9/slide-178.jpg',
+                    'https://i.ibb.co/D7yfq0P/slide-175.jpg',
+                    'https://i.ibb.co/7p7ztdR/slide-174.jpg',
+                    'https://i.ibb.co/x7JQPyM/slide-172.jpg',
+                    'https://i.ibb.co/DMmJ6JT/slide-116.jpg',
+                    'https://i.ibb.co/M7rqXrW/slide-93.jpg',
+                    'https://i.ibb.co/WBVCkrG/slide-98.jpg',
+                    'https://i.ibb.co/sbyY8Wr/slide-89.jpg',
+                    'https://i.ibb.co/6mn3m6r/slide-66.jpg',
+                    'https://i.ibb.co/QQG63YR/slide-58.jpg',
+                    'https://i.ibb.co/5x36j2h/slide-48.jpg',
+                    'https://i.ibb.co/vH2Dyps/slide-29.jpg',
+                    'https://i.ibb.co/KVR7vpX/slide-27.jpg',
+                    'https://i.ibb.co/7zf1fxX/slide-13.jpg',
+                    'https://i.ibb.co/6NMQNzN/slide-1.jpg'
                 ]
             },
             {
