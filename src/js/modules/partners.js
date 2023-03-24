@@ -77,6 +77,35 @@ export const partners = [{
                 ]
             },
             {
+                'text': 'Учасник обласного семінара <span>"ПроМц"</span> у 2019 - 2021 роках м. Святогірськ',
+                'img': [
+                    'https://i.ibb.co/JtzhnS2/slide-5.jpg',
+                    'https://i.ibb.co/n6SQHnC/slide-1.jpg',
+                    'https://i.ibb.co/Qf45kjx/slide-3.jpg',
+                    'https://i.ibb.co/X37scPC/slide-11.jpg',
+                    'https://i.ibb.co/StKcFxk/slide-13.jpg',
+                    'https://i.ibb.co/X7f1HsT/slide-17.jpg',
+                    'https://i.ibb.co/rc2vZzz/slide-21.jpg',
+                    'https://i.ibb.co/72HMzvZ/slide-23.jpg',
+                    'https://i.ibb.co/MsydhGm/slide-36.jpg',
+                    'https://i.ibb.co/XDnBVC3/slide-41.jpg',
+                    'https://i.ibb.co/ByXwgBn/slide-42.jpg',
+                    'https://i.ibb.co/YX8PGMW/slide-45.jpg',
+                    'https://i.ibb.co/SsbdG58/slide-46.jpg',
+                    'https://i.ibb.co/Fwm5XKB/slide-47.jpg',
+                    'https://i.ibb.co/18jgFMX/slide-48.jpg',
+                    'https://i.ibb.co/vJ11B3K/18.jpg',
+                    'https://i.ibb.co/MpqmLHt/16.jpg',
+                    'https://i.ibb.co/vw3kjBP/12.jpg',
+                    'https://i.ibb.co/tQgH0Rk/7.jpg',
+                    'https://i.ibb.co/5jTNsJv/5.jpg',
+                    'https://i.ibb.co/w78rN8y/1.jpg',
+                    'https://i.ibb.co/541V38D/17.jpg',
+                    'https://i.ibb.co/YWkQfLx/1.jpg',
+                    ''
+                ]
+            },
+            {
                 'text': 'Учасник тренінгу <span>"Молодіжний працівник"</span> 2019 р. м. Краматорськ',
                 'img': [
                     'https://i.ibb.co/Jt3h7m8/22.jpg',
@@ -304,7 +333,32 @@ export const partners = [{
                     'https://i.ibb.co/dr8q3Sr/slide-6.jpg',
                     'https://i.ibb.co/7VRR37m/slide-5.jpg',
                     'https://i.ibb.co/2qYnrCD/slide-4.jpg',
-                    'https://i.ibb.co/SvLs3fT/slide-3.jpg'
+                    'https://i.ibb.co/SvLs3fT/slide-3.jpg',
+                    'https://i.ibb.co/sHcBFsm/slide-1.jpg',
+                    'https://i.ibb.co/W5D7gst/slide-2.jpg',
+                    'https://i.ibb.co/4YXRRV8/slide-3.jpg',
+                    'https://i.ibb.co/T45R7Qn/slide-4.jpg',
+                    'https://i.ibb.co/BgvVFrJ/slide-5.jpg',
+                    'https://i.ibb.co/Qd42TX0/slide-6.jpg',
+                    'https://i.ibb.co/8YxS08w/slide-7.jpg',
+                    'https://i.ibb.co/tzFnJY9/slide-8.jpg',
+                    'https://i.ibb.co/fqCywhh/slide-9.jpg',
+                    'https://i.ibb.co/fXYVRWs/slide-10.jpg',
+                    'https://i.ibb.co/VmzK5Fq/slide-11.jpg',
+                    'https://i.ibb.co/YyGYYhP/slide-12.jpg',
+                    'https://i.ibb.co/XZLRB6n/slide-13.jpg',
+                    'https://i.ibb.co/xLMhJW3/slide-14.jpg',
+                    'https://i.ibb.co/pQDwQzN/slide-15.jpg',
+                    'https://i.ibb.co/JdhbhFd/slide-16.jpg',
+                    'https://i.ibb.co/RYGQkWH/slide-17.jpg',
+                    'https://i.ibb.co/PtF6MhX/slide-18.jpg',
+                    'https://i.ibb.co/hDfKR3X/slide-19.jpg',
+                    'https://i.ibb.co/qjDtNpc/slide-20.jpg',
+                    'https://i.ibb.co/K6gC6BL/slide-21.jpg',
+                    'https://i.ibb.co/kghL4X2/slide-22.jpg',
+                    'https://i.ibb.co/rFbn9k8/slide-23.jpg',
+                    'https://i.ibb.co/d0rxGkp/slide-24.jpg',
+                    'https://i.ibb.co/x2fq9nP/slide-25.jpg'
                 ]
             },
             {
@@ -538,8 +592,17 @@ export const partners = [{
                 ]
             },
             {
-                'text': 'Учасник обласного семінара <span>"ПроМц"</span> у 2020 році м. Святогірськ',
+                'text': 'Учасник обласного семінара <span>"ПроМц"</span> у 2019 - 2021 роках м. Святогірськ',
                 'img': [
+                    'https://i.ibb.co/sKmXp0m/slide-2.jpg',
+                    'https://i.ibb.co/n6SQHnC/slide-1.jpg',
+                    'https://i.ibb.co/m6CjVpp/slide-6.jpg',
+                    'https://i.ibb.co/gFLyv9v/slide-12.jpg',
+                    'https://i.ibb.co/3rSzxMQ/slide-32.jpg',
+                    'https://i.ibb.co/bv8XXZ8/slide-33.jpg',
+                    'https://i.ibb.co/xXPMfLy/slide-43.jpg',
+                    'https://i.ibb.co/8BLTGjw/slide-44.jpg',
+                    'https://i.ibb.co/18jgFMX/slide-48.jpg',
                     'https://i.ibb.co/w78rN8y/1.jpg',
                     'https://i.ibb.co/wcpR2W8/2.jpg',
                     'https://i.ibb.co/V9MmPWs/3.jpg',
@@ -557,16 +620,17 @@ export const partners = [{
                     'https://i.ibb.co/YLdmfCB/15.jpg',
                     'https://i.ibb.co/MpqmLHt/16.jpg',
                     'https://i.ibb.co/T12zJ5C/17.jpg',
-                    'https://i.ibb.co/vJ11B3K/18.jpg'
+                    'https://i.ibb.co/vJ11B3K/18.jpg',
+                    'https://i.ibb.co/GMpc7qZ/19.jpg',
+                    'https://i.ibb.co/541V38D/17.jpg',
+                    'https://i.ibb.co/XZmf41c/7.jpg',
+                    'https://i.ibb.co/gj5gCbh/2.jpg'
                 ]
             },
             {
                 'text': 'Учасник обласного семінара <span>"ПроКачМц-2.0"</span> у 2021 році м. Святогірськ',
                 'img': [
-                    'https://i.ibb.co/GMpc7qZ/19.jpg',
-                    'https://i.ibb.co/541V38D/17.jpg',
-                    'https://i.ibb.co/XZmf41c/7.jpg',
-                    'https://i.ibb.co/gj5gCbh/2.jpg'
+
 
                 ]
             }
@@ -1019,15 +1083,35 @@ export const partners = [{
                 ]
             },
             {
-                'text': 'Організатор свята до <span>"Дня вишиванки"</span> м. Слав"янськ у 2021 році</.span>',
+                'text': 'Одна з ініціаторів та організаторів свята до <span>"Дня вишиванки"</span> м. Слав"янськ у 2021 році</.span>',
                 'img': [
-
+                    'https://i.ibb.co/G0H9tnV/slide-1.jpg',
+                    'https://i.ibb.co/6R51M9n/slide-2.jpg',
+                    'https://i.ibb.co/KGwDNq9/slide-3.jpg',
+                    'https://i.ibb.co/nPT6xkQ/slide-4.jpg',
+                    'https://i.ibb.co/x8d9y9Y/slide-5.jpg',
+                    'https://i.ibb.co/VSmyncD/slide-6.jpg',
+                    'https://i.ibb.co/VWSfX0G/slide-7.jpg',
+                    'https://i.ibb.co/0Jvkqv2/slide-8.jpg',
+                    'https://i.ibb.co/cc8Spxn/slide-9.jpg',
+                    'https://i.ibb.co/wMcbqt7/slide-10.jpg',
+                    'https://i.ibb.co/Fh04dKs/slide-11.jpg',
+                    'https://i.ibb.co/vwnHx8g/slide-12.jpg',
+                    'https://i.ibb.co/yyHXDwL/slide-13.jpg',
+                    'https://i.ibb.co/nc0YzcF/slide-14.jpg',
+                    'https://i.ibb.co/Pw6qCfJ/slide-15.jpg',
+                    'https://i.ibb.co/0J453s7/slide-16.jpg',
+                    'https://i.ibb.co/DrSy428/slide-17.jpg',
+                    'https://i.ibb.co/xfD4zPC/slide-18.jpg',
+                    'https://i.ibb.co/m6YmZ0Y/slide-19.jpg'
                 ]
             },
             {
                 'text': 'Спікер обласного <span>"Фестиваля згуртованості молодіжних центрів"</span> у 2021 році',
                 'img': [
-
+                    'https://i.ibb.co/JzGywYW/slide-92.jpg',
+                    'https://i.ibb.co/2PnbkRW/slide-89.jpg',
+                    'https://i.ibb.co/Vqxv9MX/slide-99.jpg'
                 ]
             }
         ],

@@ -342,3 +342,9 @@ section {
     width: 100%;
     height: 100%;
 }
+
+.swiper-button-disabled {
+    // display: none;
+    opacity: 0.3;
+    cursor: default !important;
+}

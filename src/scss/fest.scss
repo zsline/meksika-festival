@@ -95,6 +95,8 @@
             justify-content: center;
             align-items: center;
             order: 2;
+            position: relative;
+            animation: effect linear infinite 1.5s;
             @media (max-width: 740px) {
                 margin-bottom: 30px;
             }
@@ -158,5 +160,17 @@
     padding: 0 100px;
     @media (max-width: 560px) {
         padding: 0;
+    }
+}
+
+@keyframes effect {
+    0% {
+        filter: brightness(1.4);
+    }
+    50% {
+        filter: brightness(1);
+    }
+    100% {
+        filter: brightness(1.4);
     }
 }
