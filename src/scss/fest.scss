@@ -10,7 +10,7 @@
                 width: 100%;
                 height: auto;
                 object-fit: contain;
-                // object-position: center bottom;
+                object-position: center bottom;
             }
         }
     }
@@ -96,7 +96,17 @@
             align-items: center;
             order: 2;
             position: relative;
+            overflow: hidden;
             animation: effect linear infinite 1.5s;
+            a {
+                height: 230px;
+                width: 230px;
+            }
+            & img {
+                height: 100%;
+                width: auto;
+                object-fit: cover;
+            }
             @media (max-width: 740px) {
                 margin-bottom: 30px;
             }
@@ -105,7 +115,7 @@
             padding: 10px 0;
             border-bottom: 6px solid var(--text);
             font-size: calc(var(--index)*2.5);
-            line-height: 42px;
+            line-height: 64px;
             text-align: center;
             max-height: 80px;
             transform: translateY(-50%);

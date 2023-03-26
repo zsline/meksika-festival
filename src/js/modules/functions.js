@@ -31,12 +31,15 @@ const sliderPartners = document.querySelector('.organizers-offer__slider-wrapper
 //слайдеры основные
 //====================================================
 // генератор слайдеров по годам
-function createSlider(year, slider) {
+function createSlider(Wyear, year, slider) {
     let html = '';
     for (let i = 0; i < photo[year].length; i++) {
         html += `
         <div class="fest__slider-slide swiper-slide">
-        <img src="${photo[year][i]}" alt="" class="fest__slider-img">
+            <picture>
+                <source" srcset="${photo[Wyear][i]}">
+                <img src="${photo[year][i]}" alt="Flowers">
+            </picture>
         </div>
         `
     }
@@ -177,9 +180,10 @@ if (partnersBox) {
     createPartners(partners)
 }
 if (document.querySelector('.slider')) {
-    createSlider(2019, slider1);
-    createSlider(2021, slider2);
+    createSlider('2019', '2019W', slider1);
+    createSlider('2021', '2021W', slider2);
 }
+
 
 
 
