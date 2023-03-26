@@ -394,6 +394,7 @@ button {
   line-height: 64px;
   text-align: center;
   max-height: 80px;
+  margin-bottom: 20px;
   transform: translateY(-50%);
   order: 1;
 }
