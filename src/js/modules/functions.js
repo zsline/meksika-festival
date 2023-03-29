@@ -20,6 +20,7 @@ export function isWebp() {
         document.documentElement.classList.add(className);
     });
 }
+isWebp();
 
 const slider1 = document.querySelector('.first-fest__slider');
 const slider2 = document.querySelector('.second-fest__slider');

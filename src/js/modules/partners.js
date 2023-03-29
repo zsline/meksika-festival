@@ -70,10 +70,78 @@ export const partners = [{
                 ]
             },
             {
+                'text': 'Всеукраїнський семінар <span>"Молодіжні центри: стратегія розвитку"</span>. Грудень 2018 р. м. Ірпень',
+                'img': [
+                    'https://i.ibb.co/NC1CCvS/slide-1.webp',
+                    'https://i.ibb.co/qkQZYSy/slide-2.webp',
+                    'https://i.ibb.co/qdrxHhd/slide-3.webp',
+                    'https://i.ibb.co/Fwqq3gG/slide-4.webp',
+                    'https://i.ibb.co/PQQq8qd/slide-5.webp',
+                    'https://i.ibb.co/ySwMMbB/slide-6.webp',
+                    'https://i.ibb.co/QrNhmdV/slide-7.webp',
+                    'https://i.ibb.co/dMtNXNd/slide-8.webp',
+                    'https://i.ibb.co/KswChBD/slide-9.webp',
+                    'https://i.ibb.co/hc9H6z6/slide-10.webp',
+                    'https://i.ibb.co/0c4X5fV/slide-11.webp',
+                    'https://i.ibb.co/3FwYwYj/slide-12.webp',
+                    'https://i.ibb.co/KG89WWt/slide-13.webp'
+                ]
+            },
+            {
+                'text': 'Учасник обласного семінару<span>"Національна молодіжна рада України"</span>.  2018 р. М. Святогарськ',
+                'img': [
+                    'https://i.ibb.co/6XxGSBh/slide-1.webp',
+                    'https://i.ibb.co/F0hPFKm/slide-2.webp',
+                    'https://i.ibb.co/hMJxmCY/slide-3.webp',
+                    'https://i.ibb.co/kh8Hv6X/slide-4.webp',
+                    'https://i.ibb.co/0YKdh9m/slide-5.webp',
+                    'https://i.ibb.co/P6wKx6N/slide-6.webp',
+                    'https://i.ibb.co/9q6NMYH/slide-7.webp',
+                    'https://i.ibb.co/rkhbKBr/slide-8.webp',
+                    'https://i.ibb.co/mqDJTTc/slide-9.webp',
+                    'https://i.ibb.co/HTPF1b0/slide-10.webp',
+                    'https://i.ibb.co/xhfFtnj/slide-11.webp',
+                    'https://i.ibb.co/q5StSz7/slide-12.webp',
+                    'https://i.ibb.co/mNGY869/slide-13.webp',
+                    'https://i.ibb.co/CQWTWM2/slide-14.webp',
+                    'https://i.ibb.co/KhKYyjp/slide-15.webp',
+                    'https://i.ibb.co/b6mX70p/slide-16.webp',
+                    'https://i.ibb.co/xGVXrDX/slide-17.webp',
+                    'https://i.ibb.co/ww2SjLX/slide-18.webp',
+                    'https://i.ibb.co/tctST3g/slide-19.webp',
+                    'https://i.ibb.co/Dg5LDV8/slide-20.webp',
+                    'https://i.ibb.co/PxbC7J9/slide-21.webp',
+                    'https://i.ibb.co/YWYmhfj/slide-22.webp',
+                    'https://i.ibb.co/ZzM3Sxx/slide-23.webp',
+                    'https://i.ibb.co/2Sptphm/slide-24.webp',
+                    'https://i.ibb.co/hssHbh6/slide-25.webp',
+                    'https://i.ibb.co/P4w2y8R/slide-26.webp',
+                    'https://i.ibb.co/HPDY1J1/slide-27.webp',
+                    'https://i.ibb.co/HHM12DT/slide-28.webp',
+                    'https://i.ibb.co/WWJ1M7Z/slide-29.webp'
+                ]
+            },
+            {
                 'text': 'Учасник тренінгу з командоутворення 2019 - 2020 роки м. Буча.',
                 'img': [
-                    'https://i.ibb.co/6mZD4Df/26.jpg',
-                    'https://i.ibb.co/6mZD4Df/26.jpg'
+                    'https://i.ibb.co/YyC2qVk/slide-1.webp',
+                    'https://i.ibb.co/RjMZzc7/slide-2.webp',
+                    'https://i.ibb.co/5Y6SxSL/slide-3.webp',
+                    'https://i.ibb.co/HgXRx5G/slide-4.webp',
+                    'https://i.ibb.co/sH3txBF/slide-5.webp',
+                    'https://i.ibb.co/s9g6ptj/slide-6.webp',
+                    'https://i.ibb.co/ZVCLXCx/slide-7.webp',
+                    'https://i.ibb.co/yhphZbj/slide-8.webp',
+                    'https://i.ibb.co/PMfHnnf/slide-9.webp',
+                    'https://i.ibb.co/CmzZt6r/slide-10.webp',
+                    'https://i.ibb.co/BqjK9zc/slide-11.webp',
+                    'https://i.ibb.co/T26rskb/slide-12.webp',
+                    'https://i.ibb.co/cwv6rB5/slide-13.webp',
+                    'https://i.ibb.co/MN3TLGm/slide-14.webp',
+                    'https://i.ibb.co/StTcLv5/slide-15.webp',
+                    'https://i.ibb.co/VCFcSDK/slide-16.webp',
+                    'https://i.ibb.co/YtK1QXX/slide-17.webp',
+                    'https://i.ibb.co/3BV9Cxj/slide-18.webp'
                 ]
             },
             {
@@ -527,6 +595,29 @@ export const partners = [{
                     'https://i.ibb.co/2jXT7R0/11.jpg',
                     'https://i.ibb.co/51bLKtv/14.jpg',
 
+                ]
+            },
+            {
+                'text': 'Учасник тренінгу з командоутворення 2019 - 2020 роки м. Буча.',
+                'img': [
+                    'https://i.ibb.co/YyC2qVk/slide-1.webp',
+                    'https://i.ibb.co/RjMZzc7/slide-2.webp',
+                    'https://i.ibb.co/5Y6SxSL/slide-3.webp',
+                    'https://i.ibb.co/HgXRx5G/slide-4.webp',
+                    'https://i.ibb.co/sH3txBF/slide-5.webp',
+                    'https://i.ibb.co/s9g6ptj/slide-6.webp',
+                    'https://i.ibb.co/ZVCLXCx/slide-7.webp',
+                    'https://i.ibb.co/yhphZbj/slide-8.webp',
+                    'https://i.ibb.co/PMfHnnf/slide-9.webp',
+                    'https://i.ibb.co/CmzZt6r/slide-10.webp',
+                    'https://i.ibb.co/BqjK9zc/slide-11.webp',
+                    'https://i.ibb.co/T26rskb/slide-12.webp',
+                    'https://i.ibb.co/cwv6rB5/slide-13.webp',
+                    'https://i.ibb.co/MN3TLGm/slide-14.webp',
+                    'https://i.ibb.co/StTcLv5/slide-15.webp',
+                    'https://i.ibb.co/VCFcSDK/slide-16.webp',
+                    'https://i.ibb.co/YtK1QXX/slide-17.webp',
+                    'https://i.ibb.co/3BV9Cxj/slide-18.webp'
                 ]
             },
             {
@@ -1038,10 +1129,26 @@ export const partners = [{
         'dataName': 'sorokina',
         'share': true,
         'img': 'https://i.ibb.co/Fbx4fGk/sorokima.jpg',
-        'image': 'https://i.ibb.co/2k7GCZc/slide-35.jpg',
+        'image': 'https://i.ibb.co/SrCQGNC/slide-1.jpg',
         'slideImages': [{
             'text': '',
-            'img': ''
+            'img': [
+                'https://i.ibb.co/sgSgSKg/slide-1.webp',
+                'https://i.ibb.co/fMMhcZT/slide-2.webp',
+                'https://i.ibb.co/xf1V4fs/slide-3.webp',
+                'https://i.ibb.co/nzLjK1L/slide-4.webp',
+                'https://i.ibb.co/LPMTRbG/slide-5.webp',
+                'https://i.ibb.co/MZZ5chq/slide-6.webp',
+                'https://i.ibb.co/pwgWxKg/slide-7.webp',
+                'https://i.ibb.co/Y0jytN0/slide-8.webp',
+                'https://i.ibb.co/xFGTxZr/slide-9.webp',
+                'https://i.ibb.co/BByxFz8/slide-10.webp',
+                'https://i.ibb.co/SnVd28J/slide-11.webp',
+                'https://i.ibb.co/xCg5Qxs/slide-12.webp',
+                'https://i.ibb.co/qrWmzpz/slide-13.webp',
+                'https://i.ibb.co/qNdJ0V5/slide-14.webp',
+                'https://i.ibb.co/gwPBLR4/slide-15.webp'
+            ]
         }],
         'desc': '',
         'loc': 'м. Краматорськ Донецької області',
