@@ -814,6 +814,9 @@ section {
   .fest__info-text {
     font-size: 20px;
   }
+  .fest__info-title {
+    font-size: 20px;
+  }
 }
 .swiper-modal {
   padding-top: 70px;
