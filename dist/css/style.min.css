@@ -798,8 +798,8 @@ section {
     right: 10px;
   }
   .arrow-btn {
-    width: calc(var(--index) * 15);
-    height: calc(var(--index) * 15);
+    width: 45px;
+    height: 45px;
     padding: 10px;
     background-color: var(--bg);
     border: 2px solid var(--text);
